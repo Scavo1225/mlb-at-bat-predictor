@@ -21,4 +21,4 @@ def haversine(lat1, lon1, lat2, lon2):
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
     distance = radius * c
 
-    return round(distance)
+    return distance
