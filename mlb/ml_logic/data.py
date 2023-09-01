@@ -3,321 +3,319 @@ import json
 import numpy as np
 import os
 
-class Atbats():
 
-    def raw_data_parse(filepath='../raw_data/plate_app_data/') -> pd.DataFrame:
+def raw_data_parse(filepath='../raw_data/plate_app_data/') -> pd.DataFrame:
 
-        '''
-        Provide a directory to JSON files from API call source Sport Radar - Play by Play
-        Parsing through JSON to pull the key data into a dataframe in raw form for all at bats in the game set
+    '''
+    Provide a directory to JSON files from API call source Sport Radar - Play by Play
+    Parsing through JSON to pull the key data into a dataframe in raw form for all at bats in the game set
 
-        '''
-        directory = filepath
-        data_list = []
+    '''
+    directory = filepath
+    data_list = []
 
-        for filename in os.listdir(directory):
-            file_ = os.path.join(directory, filename)
-            with open(file_) as user_file:
-                gdata = user_file.read()
-            gdata = json.loads(gdata)
+    for filename in os.listdir(directory):
+        file_ = os.path.join(directory, filename)
+        with open(file_) as user_file:
+            gdata = user_file.read()
+        gdata = json.loads(gdata)
 
-            for ing in range(1, len(gdata["game"]["innings"])):
-                for hlf in range(2):
-                    for atb in range(len(gdata["game"]["innings"][ing]["halfs"][hlf]["events"])):
+        for ing in range(1, len(gdata["game"]["innings"])):
+            for hlf in range(2):
+                for atb in range(len(gdata["game"]["innings"][ing]["halfs"][hlf]["events"])):
 
-                        if 'at_bat' not in gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]:
-                            continue
+                    if 'at_bat' not in gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]:
+                        continue
 
-                        if 'pitcher_id' not in gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]:
-                            continue
+                    if 'pitcher_id' not in gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]:
+                        continue
 
-                        id = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["id"]
-                        game_id = gdata["game"]["id"]
+                    id = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["id"]
+                    game_id = gdata["game"]["id"]
 
-                        hitter_id = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["hitter_id"]
-                        hitter_hand = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["hitter_hand"]
+                    hitter_id = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["hitter_id"]
+                    hitter_hand = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["hitter_hand"]
 
-                        pitcher_id = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["pitcher_id"]
-                        pitcher_hand = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["pitcher_hand"]
+                    pitcher_id = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["pitcher_id"]
+                    pitcher_hand = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["pitcher_hand"]
 
-                        if 'description' not in gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]:
-                            continue
+                    if 'description' not in gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]:
+                        continue
 
-                        description = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["description"]
+                    description = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["description"]
 
-                        if 'weather' in gdata["game"]["innings"][ing]["halfs"][hlf]:
-                            if "temp_f" not in gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]:
-                                temp_f = np.nan
-                            else:
-                                temp_f = gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]["temp_f"]
-
-                            if "humidity" not in gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]:
-                                humidity  = np.nan
-                            else:
-                                humidity = gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]["humidity"]
-
-                        else:
+                    if 'weather' in gdata["game"]["innings"][ing]["halfs"][hlf]:
+                        if "temp_f" not in gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]:
                             temp_f = np.nan
-                            humidity = np.nan
-
-
-                        try:
-                            at_bat_end_time = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["wall_clock"]["end_time"]
-                        except: at_bat_end_time = np.nan
-
-                        try:
-                            pitch_location_zone = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["mlb_pitch_data"]["zone"]
-                        except:
-                            pitch_location_zone = np.nan
-
-                        try:
-                            pitch_type_des = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["mlb_pitch_data"]["description"]
-                        except:
-                            pitch_type_des = np.nan
-
-                        try:
-                            pitch_speed_mph = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["pitcher"]["pitch_speed"]
-                        except:
-                            pitch_speed_mph = np.nan
-
-                        try:
-                            pitch_count_at_bat = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["count"]["pitch_count"]
-                        except:
-                            pitch_count_at_bat = np.nan
-
-                        try:
-                            pitcher_pitch_count_at_bat_start = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["pitcher"]["pitch_count"] - pitch_count_at_bat
-                        except:
-                            pitcher_pitch_count_at_bat_start = np.nan
-
-                        try:
-                            if atb == 0:
-                                outs_at_start = 0
-                            elif pitch_count_at_bat == 1:
-                                outs_at_start = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb-1]["at_bat"]["events"][-1]["count"]["outs"]
-                            else:
-                                outs_at_start = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][0]["count"]["outs"]
-
-                        except:
-                            outs_at_start = np.nan
-
-
-                        data = {'id': id,
-                                'game_id': game_id,
-                                'hitter_id': hitter_id,
-                                'hitter_hand' :hitter_hand,
-                                'pitcher_id': pitcher_id,
-                                'pitcher_hand': pitcher_hand,
-                                'description': description,
-                                'temp_f': temp_f,
-                                'humidity': humidity,
-                                'at_bat_end_time': at_bat_end_time,
-                                'pitch_location_zone': pitch_location_zone,
-                                'pitch_speed_mph': pitch_speed_mph,
-                                'pitch_count_at_bat': pitch_count_at_bat,
-                                'pitcher_pitch_count_at_bat_start': pitcher_pitch_count_at_bat_start,
-                                'outs_at_start': outs_at_start,
-                                'pitch_type_des': pitch_type_des
-                        }
-
-                        data_list.append(data)
-
-        df = pd.DataFrame(data_list)
-
-        return df
+                        else:
+                            temp_f = gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]["temp_f"]
+
+                        if "humidity" not in gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]:
+                            humidity  = np.nan
+                        else:
+                            humidity = gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]["humidity"]
+
+                    else:
+                        temp_f = np.nan
+                        humidity = np.nan
+
+
+                    try:
+                        at_bat_end_time = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["wall_clock"]["end_time"]
+                    except: at_bat_end_time = np.nan
+
+                    try:
+                        pitch_location_zone = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["mlb_pitch_data"]["zone"]
+                    except:
+                        pitch_location_zone = np.nan
+
+                    try:
+                        pitch_type_des = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["mlb_pitch_data"]["description"]
+                    except:
+                        pitch_type_des = np.nan
+
+                    try:
+                        pitch_speed_mph = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["pitcher"]["pitch_speed"]
+                    except:
+                        pitch_speed_mph = np.nan
+
+                    try:
+                        pitch_count_at_bat = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["count"]["pitch_count"]
+                    except:
+                        pitch_count_at_bat = np.nan
+
+                    try:
+                        pitcher_pitch_count_at_bat_start = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["pitcher"]["pitch_count"] - pitch_count_at_bat
+                    except:
+                        pitcher_pitch_count_at_bat_start = np.nan
+
+                    try:
+                        if atb == 0:
+                            outs_at_start = 0
+                        elif pitch_count_at_bat == 1:
+                            outs_at_start = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb-1]["at_bat"]["events"][-1]["count"]["outs"]
+                        else:
+                            outs_at_start = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][0]["count"]["outs"]
+
+                    except:
+                        outs_at_start = np.nan
+
+
+                    data = {'id': id,
+                            'game_id': game_id,
+                            'hitter_id': hitter_id,
+                            'hitter_hand' :hitter_hand,
+                            'pitcher_id': pitcher_id,
+                            'pitcher_hand': pitcher_hand,
+                            'description': description,
+                            'temp_f': temp_f,
+                            'humidity': humidity,
+                            'at_bat_end_time': at_bat_end_time,
+                            'pitch_location_zone': pitch_location_zone,
+                            'pitch_speed_mph': pitch_speed_mph,
+                            'pitch_count_at_bat': pitch_count_at_bat,
+                            'pitcher_pitch_count_at_bat_start': pitcher_pitch_count_at_bat_start,
+                            'outs_at_start': outs_at_start,
+                            'pitch_type_des': pitch_type_des
+                    }
+
+                    data_list.append(data)
+
+    df = pd.DataFrame(data_list)
+
+    return df
+
+
+def set_targets(df: pd.DataFrame) -> pd.DataFrame:
+    '''Provide raw data DataFrame and return DataFrame with the outcome codes and classification targets
+    Both binary and multi-class target
+
+    outcome codes:
+    walk - four balls on at bat, free base
+    HBP - hit by pitch, free base
+    1B - single
+    2B - double
+    3B - triple
+    4B - homerun
+    SO - strike out
+    IPO - inplay out/reach on error
 
+    Binary:
+    0: causing an out or reaching on a fielding error or interference (SO or IPO)
+    1: On base without causing an out
 
-    def set_targets(df: pd.DataFrame) -> pd.DataFrame:
-        '''Provide raw data DataFrame and return DataFrame with the outcome codes and classification targets
-        Both binary and multi-class target
+    Multi-class
+    0: causing an out or reaching on a fielding error or interference (SO or IPO)
+    1: walk, hit by pitch or single
+    2: double
+    3: triple
+    4: homerun
+    '''
 
-        outcome codes:
-        walk - four balls on at bat, free base
-        HBP - hit by pitch, free base
-        1B - single
-        2B - double
-        3B - triple
-        4B - homerun
-        SO - strike out
-        IPO - inplay out/reach on error
+    search_substrings = ["walks", "walked", "hit by pitch", "singles", "doubles", "triples", "homers", "strikes"]
+    mapping = ["walk", "walk", "HBP", "1B", "2B", "3B", "HR", "SO"]
 
-        Binary:
-        0: causing an out or reaching on a fielding error or interference (SO or IPO)
-        1: On base without causing an out
+    #Mapping descriptions to outcome codes
+    for substring, value in zip(search_substrings, mapping):
+        # Check if the substring is present in the column
+        mask = df['description'].str.contains(substring, case=False)
+        # Assign the corresponding value to the 'result' column where the mask is True
+        df.loc[mask, 'play_outcome'] = value
 
-        Multi-class
-        0: causing an out or reaching on a fielding error or interference (SO or IPO)
-        1: walk, hit by pitch or single
-        2: double
-        3: triple
-        4: homerun
-        '''
+    df['play_outcome'] = df['play_outcome'].fillna("IPO")
 
-        search_substrings = ["walks", "walked", "hit by pitch", "singles", "doubles", "triples", "homers", "strikes"]
-        mapping = ["walk", "walk", "HBP", "1B", "2B", "3B", "HR", "SO"]
+    #Mapping outcomes to multi-class targets
+    outcome_mapping = {"walk": 1,
+                        "HBP": 1,
+                        "1B": 1,
+                        "2B": 2,
+                        "3B": 3,
+                        "HR": 4,
+                        "SO": 0,
+                        "IPO": 0}
 
-        #Mapping descriptions to outcome codes
-        for substring, value in zip(search_substrings, mapping):
-            # Check if the substring is present in the column
-            mask = df['description'].str.contains(substring, case=False)
-            # Assign the corresponding value to the 'result' column where the mask is True
-            df.loc[mask, 'play_outcome'] = value
+    df["mc_target"] = df["play_outcome"].map(lambda x: outcome_mapping[x])
 
-        df['play_outcome'] = df['play_outcome'].fillna("IPO")
+    #Mapping multi-class targets to binary targets, final target for model
+    df["y_target"] = df["mc_target"].map(lambda y: 0 if y  == 0 else 1)
 
-        #Mapping outcomes to multi-class targets
-        outcome_mapping = {"walk": 1,
-                            "HBP": 1,
-                            "1B": 1,
-                            "2B": 2,
-                            "3B": 3,
-                            "HR": 4,
-                            "SO": 0,
-                            "IPO": 0}
+    #Setting at_bat id as index
+    df = df.set_index("id")
 
-        df["mc_target"] = df["play_outcome"].map(lambda x: outcome_mapping[x])
+    return df
 
-        #Mapping multi-class targets to binary targets, final target for model
-        df["y_target"] = df["mc_target"].map(lambda y: 0 if y  == 0 else 1)
+def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
-        #Setting at_bat id as index
-        df = df.set_index("id")
+    '''Data cleaning:
+    cleaning nan values and dropping instances where weather conditions or pitch data was unrecorded
+    '''
 
-        return df
+    #outs at start is nan in instances where there was a pitcher change at beginning of inning and the first at bat ended on first pitch, starting outs = 0:
+    df["outs_at_start"] = df["outs_at_start"].fillna(0)
 
-    def clean_data(df: pd.DataFrame) -> pd.DataFrame:
+    #weather data missing is dropped from data set (<0.001% of at bats)
+    df = df.dropna(subset=["temp_f"])
 
-        '''Data cleaning:
-        cleaning nan values and dropping instances where weather conditions or pitch data was unrecorded
-        '''
+    #droping rows without final pitch data (<0.001%)
+    df = df.dropna(subset=["pitch_speed_mph", "pitch_location_zone"])
 
-        #outs at start is nan in instances where there was a pitcher change at beginning of inning and the first at bat ended on first pitch, starting outs = 0:
-        df["outs_at_start"] = df["outs_at_start"].fillna(0)
+    return df
 
-        #weather data missing is dropped from data set (<0.001% of at bats)
-        df = df.dropna(subset=["temp_f"])
 
-        #droping rows without final pitch data (<0.001%)
-        df = df.dropna(subset=["pitch_speed_mph", "pitch_location_zone"])
+def merge_games_data(df: pd.DataFrame, filepath="../raw_data/games_w_venue.csv") -> pd.DataFrame:
+    '''
+    provide at_bat dataset and a file path to games data, return merged DataFrame
 
-        return df
+    '''
 
+    games = pd.read_csv(filepath)
+    # Merging df and games
+    games = games.rename(columns={"id": "game_id"})
+    df = df.merge(games, how="left", on='game_id')
 
-    def merge_games_data(df: pd.DataFrame, filepath="../raw_data/games_w_venue.csv") -> pd.DataFrame:
-        '''
-        provide at_bat dataset and a file path to games data, return merged DataFrame
+    return df
 
-        '''
+def merge_players_data(df: pd.DataFrame, filepath="../raw_data/players.csv") -> pd.DataFrame:
+    '''
+    provide at_bat dataset and a file path to players data, return merged DataFrame
 
-        games = pd.read_csv(filepath)
-        # Merging df and games
-        games = games.rename(columns={"id": "game_id"})
-        df = df.merge(games, how="left", on='game_id')
+    '''
 
-        return df
+    players = pd.read_csv(filepath)
 
-    def merge_players_data(df: pd.DataFrame, filepath="../raw_data/players.csv") -> pd.DataFrame:
-        '''
-        provide at_bat dataset and a file path to players data, return merged DataFrame
+    # Merging df and hitters data
+    hitters = players[~players.id.duplicated(keep="first")]
+    hitters = hitters.add_prefix("hitter_")
+    df = df.merge(hitters, how="left", on="hitter_id")
 
-        '''
+    # Merging df and pitchers data
 
-        players = pd.read_csv(filepath)
+    pitchers = players[~players.id.duplicated(keep="first")]
+    pitchers = pitchers.add_prefix("pitcher_")
+    df = df.merge(pitchers, how="left", on="pitcher_id")
 
-        # Merging df and hitters data
-        hitters = players[~players.id.duplicated(keep="first")]
-        hitters = hitters.add_prefix("hitter_")
-        df = df.merge(hitters, how="left", on="hitter_id")
+    return df
 
-        # Merging df and pitchers data
+def merge_teams_data(df: pd.DataFrame, filepath="../raw_data/teams.csv") -> pd.DataFrame:
+    '''
+    provide at_bat dataset and a file path to teams data, return merged DataFrame
 
-        pitchers = players[~players.id.duplicated(keep="first")]
-        pitchers = pitchers.add_prefix("pitcher_")
-        df = df.merge(pitchers, how="left", on="pitcher_id")
+    '''
 
-        return df
+    teams = pd.read_csv(filepath)
 
-    def merge_teams_data(df: pd.DataFrame, filepath="../raw_data/teams.csv") -> pd.DataFrame:
-        '''
-        provide at_bat dataset and a file path to teams data, return merged DataFrame
+    # Merging df and home team data
+    home_team = teams.add_prefix("home_team_")
+    df = df.rename(columns={"home_team": "home_team_id"})
+    df = df.merge(home_team, how="left", on="home_team_id")
 
-        '''
+    # Merging df and away team data
+    away_team = teams.add_prefix("away_team_")
+    df = df.rename(columns={"away_team": "away_team_id"})
+    df = df.merge(away_team, how="left", on="away_team_id")
 
-        teams = pd.read_csv(filepath)
+    return df
 
-        # Merging df and home team data
-        home_team = teams.add_prefix("home_team_")
-        df = df.rename(columns={"home_team": "home_team_id"})
-        df = df.merge(home_team, how="left", on="home_team_id")
 
-        # Merging df and away team data
-        away_team = teams.add_prefix("away_team_")
-        df = df.rename(columns={"away_team": "away_team_id"})
-        df = df.merge(away_team, how="left", on="away_team_id")
+def data_tuning(df: pd.DataFrame) -> pd.DataFrame:
+    '''
+    Provide a DataFrame of merged data and return a dataset ready for feature engineering
+    1. removed columns that are redundant or not used in modeling
+    2. handles errored data points and corrects to logical inference of the data point value
+    3. handles coverting dates to datetime
+    4. Orders at bats oldest to newest
+    '''
 
-        return df
+    #removing unwanted columns
+    columns_to_remove = list(('description','scheduled',
+                            'status', 'coverage', 'game_number',
+                            'duration', 'double_header', 'entry_mode', 'reference',
+                            'venue', 'home', 'away', 'broadcast', 'rescheduled','hitter_team_id', 'hitter_team_name','pitcher_position',
+                            'pitcher_team_id', 'pitcher_team_name', 'home_team_name', 'home_team_market', 'home_team_abbr',
+                            'away_team_name', 'away_team_market', 'away_team_abbr'))
 
+    df.drop(columns=columns_to_remove)
 
-    def data_tuning(df: pd.DataFrame) -> pd.DataFrame:
-        '''
-        Provide a DataFrame of merged data and return a dataset ready for feature engineering
-        1. removed columns that are redundant or not used in modeling
-        2. handles errored data points and corrects to logical inference of the data point value
-        3. handles coverting dates to datetime
-        4. Orders at bats oldest to newest
-        '''
+    #Cleaning up data points
+    if 'outs_at_start' in df.columns:
+        df['outs_at_start'] = df['outs_at_start'].apply(lambda x: 2 if x == 3 else x)
 
-        #removing unwanted columns
-        columns_to_remove = list(('description','scheduled',
-                                'status', 'coverage', 'game_number',
-                                'duration', 'double_header', 'entry_mode', 'reference',
-                                'venue', 'home', 'away', 'broadcast', 'rescheduled','hitter_team_id', 'hitter_team_name','pitcher_position',
-                                'pitcher_team_id', 'pitcher_team_name', 'home_team_name', 'home_team_market', 'home_team_abbr',
-                                'away_team_name', 'away_team_market', 'away_team_abbr'))
+    if 'pitcher_pitch_count_at_bat_start' in df.columns:
+        df['pitcher_pitch_count_at_bat_start'] = df['pitcher_pitch_count_at_bat_start'].apply(lambda x: 0 if x < 0 else x)
 
-        df.drop(columns=columns_to_remove)
+    #Coverting columns to the correct dtype
+    df["at_bat_end_time"] = pd.to_datetime(df["at_bat_end_time"])
 
-        #Cleaning up data points
-        if 'outs_at_start' in df.columns:
-            df['outs_at_start'] = df['outs_at_start'].apply(lambda x: 2 if x == 3 else x)
+    df = df.sort_values(["at_bat_end_time"], ignore_index=True, ascending=True)
 
-        if 'pitcher_pitch_count_at_bat_start' in df.columns:
-            df['pitcher_pitch_count_at_bat_start'] = df['pitcher_pitch_count_at_bat_start'].apply(lambda x: 0 if x < 0 else x)
+    return df
 
-        #Coverting columns to the correct dtype
-        df["at_bat_end_time"] = pd.to_datetime(df["at_bat_end_time"])
 
-        df = df.sort_values(["at_bat_end_time"], ignore_index=True, ascending=True)
+def write_feature_engineering_data_to_csv(df: pd.DataFrame, filepath="../raw_data/all_ab_raw_data_w_target.csv"):
+    '''
+    save data ready for feature engineering to local drives
+    '''
 
-        return df
+    df.to_csv(filepath)
 
+    return f'.csv file save at {filepath}'
 
-    def write_feature_engineering_data_to_csv(df: pd.DataFrame, filepath="../raw_data/all_ab_raw_data_w_target.csv"):
-        '''
-        save data ready for feature engineering to local drives
-        '''
 
-        df.to_csv(filepath)
+def create_dataset(ab_filepath='../raw_data/plate_app_data/',
+                    games_filepath="../raw_data/games_w_venue.csv",
+                    players_filepath='../raw_data/players.csv',
+                    teams_filepath="../raw_data/teams.csv",
+                    ) -> pd.DataFrame:
+    '''
+    Provide paths to tabular data, and return a finalized datset ready for feature enigeering in one function
+    '''
 
-        return f'.csv file save at {filepath}'
+    df = raw_data_parse(ab_filepath)
+    df = set_targets(df)
+    df = clean_data(df)
+    df = merge_games_data(df, games_filepath)
+    df = merge_players_data(df, players_filepath)
+    df = merge_teams_data(df, teams_filepath)
+    df = data_tuning(df)
 
-
-    def create_dataset(self,
-                       ab_filepath='../raw_data/plate_app_data/',
-                       games_filepath="../raw_data/games_w_venue.csv",
-                       players_filepath='../raw_data/players.csv',
-                       teams_filepath="../raw_data/teams.csv",
-                       ) -> pd.DataFrame:
-        '''
-        Provide paths to tabular data, and return a finalized datset ready for feature enigeering in one function
-        '''
-
-        df = self.raw_data_parse(ab_filepath)
-        df = self.set_targets(df)
-        df = self.clean_data(df)
-        df = self.merge_games_data(df, games_filepath)
-        df = self.merge_players_data(df, players_filepath)
-        df = self.merge_teams_data(df, teams_filepath)
-        df = self.data_tuning(df)
-
-        return df
+    return df
