@@ -5,6 +5,7 @@ from colorama import Fore, Style
 from typing import Tuple
 
 from sklearn.ensemble import HistGradientBoostingClassifier
+from sklearn.metrics import accuracy_score, recall_score, precision_score
 
 
 def initialize_model(model_type='hgbc'):
@@ -69,7 +70,13 @@ def train_model(model, X, y):
 
     return model
 
-def evalute_model(model, X, y):
-   scoring =  model.score(X, y)
+def evaluate_model(model, X, y):
+    y_pred = model.predict(X)
 
-   return scoring
+    print("✅ Test set evaluated, scoring on test set is as follows: \n")
+
+    print("Accuracy =", round(accuracy_score(y, y_pred),2))
+    print("Recall =", round(recall_score(y, y_pred),2))
+    print("Precision =", round(precision_score(y, y_pred),2))
+
+    return None
