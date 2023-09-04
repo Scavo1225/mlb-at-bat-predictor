@@ -1,5 +1,10 @@
-install:
-    @pip install -e .
+.DEFAULT_GOAL := default
+#################### PACKAGE ACTIONS ###################
+install_package:
+	@pip install -e .
+
+run_api:
+	uvicorn mlb.api.fast:app --reload
 
 clean:
     @rm -f */version.txt
