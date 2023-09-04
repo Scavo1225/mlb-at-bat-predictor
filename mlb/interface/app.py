@@ -1,31 +1,73 @@
 import streamlit as st
 import requests
 
+# Define a dictionary of players and their corresponding teams
+player_teams = {
+    "Player1": "TeamA",
+    "Player2": "TeamA",
+    "Player3": "TeamB",
+    "Player4": "TeamB",
+}
 
-with st.form(key='params_for_api'):
-    pitcher_name = st.text_input('Pitcher Name')
-    hitter_name = st.text_input('Hitter Name')
-    location = st.text_input('Location')
-    at_bats = st.number_input('Number of At-Bats', min_value=0, step=1, value=0)
+# Get a list of unique team names
+unique_teams = list(set(player_teams.values()))
 
-    st.form_submit_button('Make prediction')
+# Create a Streamlit app
+st.title("MLB Game Predictor - OneHitWonder ")
 
-params = dict(
-    pitcher_name=pitcher_name,
-    hitter_name=hitter_name,
-    location=location,
-    at_bats=at_bats
-)
+# Dropdown to select the pitching team
+pitching_team = st.selectbox("Select Pitching Team", unique_teams)
 
+# Get a list of players from the selected pitching team
+if pitching_team:
+    pitching_team_players = [player for player, team in player_teams.items() if team == pitching_team]
+else:
+    pitching_team_players = []
 
-mbl_api_url = 'XXXXXXXXXXXXXXXXXXXXXXXX'
-response = requests.get(mbl_api_url_api_url, params=params)
+# Dropdown to select the pitcher from the pitching team
+pitcher = st.selectbox("Select Pitcher", pitching_team_players)
 
-prediction = response.json()
+# Dropdown to select the hitting team
+hitting_team = st.selectbox("Select Hitting Team", unique_teams)
 
-pred = prediction['y_target']
+# Get a list of players from the selected hitting team
+if hitting_team:
+    hitting_team_players = [player for player, team in player_teams.items() if team == hitting_team]
+else:
+    hitting_team_players = []
 
-if pred == 1:
-    st.success('The Hitter is going to get at least one Base.')
-elif pred == 0:
-    st.error('The Hitter is not going to get on a base.')
+# Dropdown to select the hitter from the hitting team
+hitter = st.selectbox("Select Hitter", hitting_team_players)
+
+# Display the selected teams and players
+st.write(f"Pitching Team: {pitching_team}")
+if pitcher:
+    st.write(f"Pitcher: {pitcher}")
+
+st.write(f"Hitting Team: {hitting_team}")
+if hitter:
+    st.write(f"Hitter: {hitter}")
+
+params = {
+    "pitcher_name": pitcher,
+    "hitter_name": hitter
+}
+
+mbl_api_url = 'XXXXXXXXXXXXXXXXXXXXXXXX'  # Replace with your API endpoint
+try:
+    response = requests.get(mbl_api_url, params=params)
+    response.raise_for_status()  # Raise an exception if the request is not successful
+
+    prediction = response.json()
+    pred = prediction.get('y_target')  # Use .get() to avoid KeyError if 'y_target' is missing
+
+    if pred == 1:
+        st.success('The Hitter is going to get at least one Base.')
+    elif pred == 0:
+        st.error('The Hitter is not going to get on a Base.')
+    else:
+        st.warning(f"Unexpected prediction value: {pred}")
+except requests.exceptions.RequestException as e:
+    st.error(f"An error occurred while making the API request: {str(e)}")
+except KeyError:
+    st.error("The API response is missing the 'y_target' key.")
