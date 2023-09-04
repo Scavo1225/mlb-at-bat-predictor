@@ -1,8 +1,10 @@
 import pandas as pd
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+# from mlb.ml_logic.registry import load_model
 
 app = FastAPI()
+# app.state.model = load_model()
 
 app.add_middleware(
     CORSMiddleware,
@@ -12,10 +14,14 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 ###########################################
-#Following Taken from Taxifare
+#API call functions
 ###########################################
 
-
+@app.get("/")
+def root():
+    return {
+    'greeting': 'mlb_api_tests'
+}
 
 # @app.get("/predict")
 # def predict(
@@ -51,15 +57,6 @@ app.add_middleware(
 
 #     model = app.state.model
 
-#     amount =model.predict(X_preprocessed)
+#     amount = model.predict(X_preprocessed)
 
 #     return {'fare_amount': round(float(amount), 2)}
-
-
-# @app.get("/")
-# def root():
-#     return {
-#     'greeting': 'Hello'
-# }
-
-# print(predict('2013-07-06 17:18:00', '-73.950655', 	'40.783282', '-73.950655', '40.783282', '2'))
