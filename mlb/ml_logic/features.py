@@ -64,7 +64,7 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
     df["hitter_speeds_class1"] = df["pitch_speed_mph"] * df["y_target"]
     df["hitter_success_speed"] = (df.groupby("hitter_id")["hitter_speeds_class1"].cumsum()) / (df.groupby("hitter_id")["y_target"].cumsum())
 
-    df["pitcher_speed"] = (df.groupby("pitcher_id")["pitch_speed_mph"].cumsum())/ (df.groupby("pitcher_id").cumcount())
+    df["pitcher_speed"] = (df.groupby("pitcher_id")["pitch_speed_mph"].cumsum())/ (df.groupby("pitcher_id").cumcount() + 1)
 
     #Pitch type stats
     df["reverse_pitch_type_cat"] = df["pitch_type_cat"].apply(lambda x: 0 if x == 1 else 1)
@@ -92,19 +92,17 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
                             "hitter_balls_only_results", "hitter_strikes_results", "hitter_balls_results", "hitter_speeds_class1",
                             "reverse_pitch_type_cat", "hitter_fast_atb", "hitter_offspeed_atb", "hitter_fast_only_results","hitter_offspeed_only_results","hitter_fast_results", "hitter_offspeed_results"])
 
-    final_modeling_columns = ['temp_f', 'humidity',
-                    'pitcher_pitch_count_at_bat_start', 'outs_at_start',
-                    'hitter_position', 'hitter_previous_stats_szn', 'rolling_1ab',
-                    'rolling_3ab', 'rolling_10ab', 'hitter_previous_stats_szn_slug',
-                    'rolling_1ab_slug', 'rolling_3ab_slug', 'rolling_10ab_slug',
-                    'pitcher_previous_stats_szn', 'rolling_1pitch', 'rolling_3pitch',
-                    'rolling_10pitch', 'pitcher_previous_stats_szn_bases',
-                    'rolling_1pitch_bases', 'rolling_3pitch_bases', 'rolling_10pitch_bases',
-                    'handed_matchup','match_up_ab_count_delta', 'hitter_strikes_eff', 'hitter_balls_eff',
-                    'pitcher_strikes_spread', 'pitcher_balls_spread',
-                    'hitter_success_speed', 'pitcher_speed', 'hitter_fast_eff',
-                    'hitter_offspeed_eff', 'pitcher_fast_spread',
-                    'pitcher_offspeed_spread', 'y_target']
+    final_modeling_columns = ['hitter_position', 'hitter_previous_stats_szn', 'rolling_1ab',
+                            'rolling_3ab', 'rolling_10ab', 'hitter_previous_stats_szn_slug',
+                            'rolling_1ab_slug', 'rolling_3ab_slug', 'rolling_10ab_slug',
+                            'pitcher_previous_stats_szn', 'rolling_1pitch', 'rolling_3pitch',
+                            'rolling_10pitch', 'pitcher_previous_stats_szn_bases',
+                            'rolling_1pitch_bases', 'rolling_3pitch_bases', 'rolling_10pitch_bases',
+                            'handed_matchup','match_up_ab_count_delta', 'hitter_strikes_eff', 'hitter_balls_eff',
+                            'pitcher_strikes_spread', 'pitcher_balls_spread',
+                            'hitter_success_speed', 'pitcher_speed', 'hitter_fast_eff',
+                            'hitter_offspeed_eff', 'pitcher_fast_spread',
+                            'pitcher_offspeed_spread', 'y_target']
 
     df = df[final_modeling_columns]
 

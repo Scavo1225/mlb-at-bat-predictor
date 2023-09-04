@@ -7,6 +7,7 @@ import numpy as np
 MLFLOW_TRACKING_URI = os.environ.get("MLFLOW_TRACKING_URI")
 MLFLOW_EXPERIMENT = os.environ.get("MLFLOW_EXPERIMENT")
 MLFLOW_MODEL_NAME = os.environ.get("MLFLOW_MODEL_NAME")
+MODEL_TARGET = os.environ.get("MODEL_TARGET")
 
 GCR_IMAGE = os.environ.get("GCR_IMAGE")
 GCR_REGION = os.environ.get("GCR_REGION")
@@ -14,8 +15,8 @@ GCR_MEMORY = os.environ.get("GCR_MEMORY")
 
 
 ##################  CONSTANTS  #####################
-# LOCAL_DATA_PATH = os.path.join(os.path.expanduser('~'), ".mlb_classification_project_1315", "mlops", "data")
-# LOCAL_REGISTRY_PATH =  os.path.join(os.path.expanduser('~'), ".mlb_classification_project_1315", "mlops", "training_outputs")
+LOCAL_DATA_PATH = os.path.join(os.path.expanduser('~'), ".mlb_classification", "mlops", "data")
+LOCAL_REGISTRY_PATH =  os.path.join(os.path.expanduser('~'), ".mlb_classification", "mlops", "training_outputs")
 
 # COLUMN_NAMES_RAW = ['fare_amount','pickup_datetime', 'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude', 'passenger_count']
 
