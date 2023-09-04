@@ -97,7 +97,7 @@ def mlflow_run(func):
         mlflow.set_experiment(experiment_name=MLFLOW_EXPERIMENT)
 
         with mlflow.start_run():
-            mlflow.tensorflow.autolog()
+            mlflow.sklearn.autolog()
             results = func(*args, **kwargs)
 
         print("✅ mlflow_run auto-log done")
