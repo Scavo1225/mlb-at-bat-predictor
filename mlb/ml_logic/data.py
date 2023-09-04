@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 
-def raw_data_parse(filepath='../raw_data/plate_app_data/') -> pd.DataFrame:
+def raw_data_parse(filepath='raw_data/plate_app_data/') -> pd.DataFrame:
 
     '''
     Provide a directory to JSON files from API call source Sport Radar - Play by Play
@@ -43,22 +43,6 @@ def raw_data_parse(filepath='../raw_data/plate_app_data/') -> pd.DataFrame:
                         continue
 
                     description = gdata["game"]["innings"][ing]["halfs"][hlf]["events"][atb]["at_bat"]["description"]
-
-                    if 'weather' in gdata["game"]["innings"][ing]["halfs"][hlf]:
-                        if "temp_f" not in gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]:
-                            temp_f = np.nan
-                        else:
-                            temp_f = gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]["temp_f"]
-
-                        if "humidity" not in gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]:
-                            humidity  = np.nan
-                        else:
-                            humidity = gdata["game"]["innings"][ing]["halfs"][hlf]["weather"]["current_conditions"]["humidity"]
-
-                    else:
-                        temp_f = np.nan
-                        humidity = np.nan
-
 
                     try:
                         at_bat_end_time = gdata["game"]['innings'][ing]['halfs'][hlf]['events'][atb]["at_bat"]["events"][-1]["wall_clock"]["end_time"]
@@ -108,8 +92,6 @@ def raw_data_parse(filepath='../raw_data/plate_app_data/') -> pd.DataFrame:
                             'pitcher_id': pitcher_id,
                             'pitcher_hand': pitcher_hand,
                             'description': description,
-                            'temp_f': temp_f,
-                            'humidity': humidity,
                             'at_bat_end_time': at_bat_end_time,
                             'pitch_location_zone': pitch_location_zone,
                             'pitch_speed_mph': pitch_speed_mph,
@@ -193,8 +175,8 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     #outs at start is nan in instances where there was a pitcher change at beginning of inning and the first at bat ended on first pitch, starting outs = 0:
     df["outs_at_start"] = df["outs_at_start"].fillna(0)
 
-    #weather data missing is dropped from data set (<0.001% of at bats)
-    df = df.dropna(subset=["temp_f"])
+    df["pitch_class"] = df["pitch_location_zone"].apply(lambda x: 0 if x < 10 else 1)
+    df["pitch_type_cat"] = df["pitch_type_des"].apply(lambda x: 0 if x == 'Four-Seam Fastball' or x == 'Slider' or x == 'Cutter' or x == 'Fastball' else 1)
 
     #droping rows without final pitch data (<0.001%)
     df = df.dropna(subset=["pitch_speed_mph", "pitch_location_zone"])
@@ -202,7 +184,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def merge_games_data(df: pd.DataFrame, filepath="../raw_data/games_w_venue.csv") -> pd.DataFrame:
+def merge_games_data(df: pd.DataFrame, filepath="raw_data/games_w_venue.csv") -> pd.DataFrame:
     '''
     provide at_bat dataset and a file path to games data, return merged DataFrame
 
@@ -215,7 +197,7 @@ def merge_games_data(df: pd.DataFrame, filepath="../raw_data/games_w_venue.csv")
 
     return df
 
-def merge_players_data(df: pd.DataFrame, filepath="../raw_data/players.csv") -> pd.DataFrame:
+def merge_players_data(df: pd.DataFrame, filepath="raw_data/players.csv") -> pd.DataFrame:
     '''
     provide at_bat dataset and a file path to players data, return merged DataFrame
 
@@ -236,7 +218,7 @@ def merge_players_data(df: pd.DataFrame, filepath="../raw_data/players.csv") -> 
 
     return df
 
-def merge_teams_data(df: pd.DataFrame, filepath="../raw_data/teams.csv") -> pd.DataFrame:
+def merge_teams_data(df: pd.DataFrame, filepath="raw_data/teams.csv") -> pd.DataFrame:
     '''
     provide at_bat dataset and a file path to teams data, return merged DataFrame
 
@@ -272,7 +254,7 @@ def data_tuning(df: pd.DataFrame) -> pd.DataFrame:
                             'duration', 'double_header', 'entry_mode', 'reference',
                             'venue', 'home', 'away', 'broadcast', 'rescheduled','hitter_team_id', 'hitter_team_name','pitcher_position',
                             'pitcher_team_id', 'pitcher_team_name', 'home_team_name', 'home_team_market', 'home_team_abbr',
-                            'away_team_name', 'away_team_market', 'away_team_abbr'))
+                            'away_team_name', 'away_team_market', 'away_team_abbr', 'pitch_location_zone'))
 
     df.drop(columns=columns_to_remove)
 
@@ -291,7 +273,7 @@ def data_tuning(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def write_feature_engineering_data_to_csv(df: pd.DataFrame, filepath="../raw_data/all_ab_raw_data_w_target.csv"):
+def write_feature_engineering_data_to_csv(df: pd.DataFrame, filepath="../../raw_data/all_ab_raw_data_w_target.csv"):
     '''
     save data ready for feature engineering to local drives
     '''
@@ -301,10 +283,10 @@ def write_feature_engineering_data_to_csv(df: pd.DataFrame, filepath="../raw_dat
     return f'.csv file save at {filepath}'
 
 
-def create_dataset(ab_filepath='../raw_data/plate_app_data/',
-                    games_filepath="../raw_data/games_w_venue.csv",
-                    players_filepath='../raw_data/players.csv',
-                    teams_filepath="../raw_data/teams.csv",
+def create_dataset(ab_filepath='raw_data/plate_app_data/',
+                    games_filepath="raw_data/games_w_venue.csv",
+                    players_filepath='raw_data/players.csv',
+                    teams_filepath="raw_data/teams.csv",
                     ) -> pd.DataFrame:
     '''
     Provide paths to tabular data, and return a finalized datset ready for feature enigeering in one function

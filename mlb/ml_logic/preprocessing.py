@@ -18,8 +18,7 @@ def create_preprocessor_pipeline() -> make_pipeline:
     ## Build pipeline for imputing and scaling
 
     # Num features
-    num_col = ["temp_f", "humidity", "pitcher_pitch_count_at_bat_start", "outs_at_start",
-            "hitter_previous_stats_szn_slug","rolling_1ab_slug", "rolling_3ab_slug",
+    num_col = ["hitter_previous_stats_szn_slug","rolling_1ab_slug", "rolling_3ab_slug",
             "rolling_10ab_slug", "pitcher_previous_stats_szn_bases", "rolling_1pitch_bases",
             "rolling_3pitch_bases", "rolling_10pitch_bases", "match_up_ab_count_delta",
             "hitter_success_speed", "pitcher_speed"]
@@ -60,13 +59,14 @@ def preprocessing_for_training(X_train, X_test):
     return X_train_preproc, X_test_preproc
 
 
-def preprocessing_for_training(X_train, X_pred):
-    preproc_transformer = create_preprocessor_pipeline()
+def preprocessing_for_predictions(X_train, X_pred):
+    # preproc_transformer = create_preprocessor_pipeline()
 
 
-    ## Fit on X_train and transform X_train and X_test
-    preproc_transformer = preproc_transformer.fit(X_train)
-    X_pred_preproc = preproc_transformer.transform(X_pred)
+    # ## Fit on X_train and transform X_train and X_test
+    # preproc_transformer = preproc_transformer.fit(X_train)
+    # X_pred_preproc = preproc_transformer.transform(X_pred)
 
 
-    return X_pred_preproc
+    # return X_pred_preproc
+    pass

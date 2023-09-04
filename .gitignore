@@ -2,6 +2,9 @@
 raw_data/
 preproc_data/
 
+#mlflow info
+mlruns/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -126,6 +129,7 @@ celerybeat.pid
 
 # Environments
 .env
+.envrc
 .venv
 env/
 venv/
