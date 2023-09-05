@@ -82,27 +82,6 @@ params = {
     "hitter_name": hitter
 }
 
-mbl_api_url = ''  # Replace with your API endpoint
-try:
-    response = requests.get(mbl_api_url, params=params)
-    response.raise_for_status()  # Raise an exception if the request is not successful
-
-    prediction = response.json()
-    pred = prediction.get('y_target')  # Use .get() to avoid KeyError if 'y_target' is missing
-
-    if pred == 1:
-        st.success('The Hitter is going to get at least one Base.')
-    elif pred == 0:
-        st.error('The Hitter is not going to get on a Base.')
-    else:
-        st.warning(f"Unexpected prediction value: {pred}")
-except requests.exceptions.RequestException as e:
-    st.error(f"An error occurred while making the API request: {str(e)}")
-except KeyError:
-    st.error("The API response is missing the 'y_target' key.")
-
-
-# Generate a prediction
 
 if st.button("Predict"):
 
@@ -114,3 +93,30 @@ if st.button("Predict"):
     st.write("The pitcher was better")
     lose_gif = f"{path}/mlb/interface/illustrations/lose.gif"
     st.image(lose_gif, width=500)
+
+
+    mbl_api_url = 'http://localhost:8000/predict'  # Replace with your API endpoint
+    try:
+        response = requests.get(mbl_api_url, params=params)
+        response.raise_for_status()  # Raise an exception if the request is not successful
+
+        prediction = response.json()
+
+        pred = prediction.get('prediction')  # Use .get() to avoid KeyError if 'y_target' is missing
+        proba = prediction.get('proba')  # Use .get() to avoid KeyError if 'y_target' is missing
+
+        if pred == 1:
+            st.success("Batter wins this at bat!")
+            st.success(f"Batter is projected to win this at bat, with a {proba} probability")
+        elif pred == 0:
+            st.error("Pitcher wins this at bat!")
+            st.error(f"Pitcher is expected to win the at bat; batter has a {proba} probability to be successful")
+        else:
+            st.warning(f"Unexpected prediction value: {pred}")
+    except requests.exceptions.RequestException as e:
+        st.error(f"An error occurred while making the API request: {str(e)}")
+    except KeyError:
+        st.error("The API response is missing the 'prediction' key.")
+
+
+    # Generate a prediction

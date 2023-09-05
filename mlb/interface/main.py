@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split, cross_validate
 # from sklearn.impute import SimpleImputer
 
 from mlb.params import *
-from mlb.ml_logic.data import create_dataset
+from mlb.ml_logic.data import create_dataset, build_data_to_predict
 from mlb.ml_logic.features import create_features
 from mlb.ml_logic.preprocessing import preprocessing_for_training
 from mlb.ml_logic.modeling import initialize_model, train_model, evaluate_model
@@ -36,6 +36,8 @@ def get_trained_model(model_type='hgbc', test_size=0.30):
     raw_df = create_dataset()
     df = create_features(raw_df)
 
+    print(Fore.MAGENTA + "\n ⭐️ Prediction tables created...." + Style.RESET_ALL)
+
     print(Fore.MAGENTA + "\n ⭐️ Dataset retrieved and features created...." + Style.RESET_ALL)
 
     X = df.drop(columns=["y_target"])
@@ -44,6 +46,10 @@ def get_trained_model(model_type='hgbc', test_size=0.30):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size)
 
     X_train.to_csv('mlb/interface/data/X_train.csv')
+
+    build_data_to_predict()
+
+    print(Fore.MAGENTA + "\n ⭐️ Training, test sets, and prediction tables created...." + Style.RESET_ALL)
 
     X_train_processed, X_test_processed = preprocessing_for_training(X_train, X_test)
 
