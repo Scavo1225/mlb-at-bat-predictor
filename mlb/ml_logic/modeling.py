@@ -36,32 +36,6 @@ def initialize_model(model_type='hgbc'):
                                         n_iter_no_change=10
                                         )
 
-    # if model_type == 'xbg':
-    #     model = HistGradientBoostingClassifier(loss="log_loss",
-    #                                     learning_rate=0.1,
-    #                                     max_iter=100,
-    #                                     max_depth=None,
-    #                                     l2_regularization=0,
-    #                                     scoring="accuracy",
-    #                                     validation_fraction=0.2,
-    #                                     verbose=False,
-    #                                     early_stopping=True,
-    #                                     n_iter_no_change=10
-    #                                     )
-
-    # if model_type == 'cb':
-    #     model = HistGradientBoostingClassifier(loss="log_loss",
-    #                                     learning_rate=0.1,
-    #                                     max_iter=100,
-    #                                     max_depth=None,
-    #                                     l2_regularization=0,
-    #                                     scoring="accuracy",
-    #                                     validation_fraction=0.2,
-    #                                     verbose=False,
-    #                                     early_stopping=True,
-    #                                     n_iter_no_change=10
-    #                                     )
-
     return model
 
 

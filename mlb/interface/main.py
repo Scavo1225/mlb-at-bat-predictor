@@ -38,13 +38,12 @@ def get_trained_model(model_type='hgbc', test_size=0.30):
 
     print(Fore.MAGENTA + "\n ⭐️ Dataset retrieved and features created...." + Style.RESET_ALL)
 
-    df.to_csv('preproc_data/test_data/df.csv')
-    raw_df.to_csv('preproc_data/test_data/df_raw.csv')
-
     X = df.drop(columns=["y_target"])
     y = df.y_target
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size)
+
+    X_train.to_csv('mlb/interface/data/X_train.csv')
 
     X_train_processed, X_test_processed = preprocessing_for_training(X_train, X_test)
 

@@ -1,6 +1,7 @@
 #raw data folder
 raw_data/
 preproc_data/
+data/
 
 #mlflow info
 mlruns/
