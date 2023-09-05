@@ -60,13 +60,13 @@ def preprocessing_for_training(X_train, X_test):
 
 
 def preprocessing_for_predictions(X_train, X_pred):
-    # preproc_transformer = create_preprocessor_pipeline()
+    
+    preproc_transformer = create_preprocessor_pipeline()
 
 
-    # ## Fit on X_train and transform X_train and X_test
-    # preproc_transformer = preproc_transformer.fit(X_train)
-    # X_pred_preproc = preproc_transformer.transform(X_pred)
+    ##Fit on X_train and transform X_train and X_test
+    preproc_transformer = preproc_transformer.fit(X_train)
+    X_pred_preproc = preproc_transformer.transform(X_pred)
 
 
-    # return X_pred_preproc
-    pass
+    return X_pred_preproc
