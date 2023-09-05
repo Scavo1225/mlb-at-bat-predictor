@@ -68,15 +68,15 @@ st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{
 columns = st.columns(2)
 
 pitcher_stats = pitchers[(pitchers.full_name == pitcher) & (pitchers.team_nickname == pitching_team)]
-pitcher_stats = pitcher_stats[['pitcher_ab_count', 'pitcher_hand', 'pitcher_previous_stats_szn', 'rolling_10pitch',
-                              'pitcher_previous_stats_szn_bases', 'rolling_10pitch_bases', 'pitcher_fast_spread' ,'pitcher_offspeed_spread']]
+pitcher_stats = pitcher_stats[['pitcher_ab_count', 'pitcher_hand', 'pitcher_previous_stats_szn',
+                              'pitcher_previous_stats_szn_bases', 'pitcher_fast_spread' ,'pitcher_offspeed_spread']]
 
 pitcher_stats['pitcher_ab_count'] = int(pitcher_stats['pitcher_ab_count'])
 
 pitcher_stats['pitcher_previous_stats_szn'] = round(pitcher_stats['pitcher_previous_stats_szn'],3)
-pitcher_stats['rolling_10pitch'] = round(pitcher_stats['rolling_10pitch'],3)
+# pitcher_stats['rolling_10pitch'] = round(pitcher_stats['rolling_10pitch'],3)
 pitcher_stats['pitcher_previous_stats_szn_bases'] = round(pitcher_stats['pitcher_previous_stats_szn_bases'],3)
-pitcher_stats['rolling_10pitch_bases'] = round(pitcher_stats['rolling_10pitch_bases'],3)
+# pitcher_stats['rolling_10pitch_bases'] = round(pitcher_stats['rolling_10pitch_bases'],3)
 
 pitcher_stats['pitcher_fast_spread'] = round(pitcher_stats['pitcher_fast_spread']*100, 2)
 pitcher_stats['pitcher_offspeed_spread'] = round(pitcher_stats['pitcher_offspeed_spread']*100, 2)
@@ -84,9 +84,9 @@ pitcher_stats['pitcher_offspeed_spread'] = round(pitcher_stats['pitcher_offspeed
 pitcher_stats = pitcher_stats.rename(columns={'pitcher_ab_count': '2023 Batters Faced',
                               'pitcher_hand': 'Pitching Hand',
                               'pitcher_previous_stats_szn': 'Season Opp OBP',
-                              'rolling_10pitch': 'Last 10 Batters Faced',
+                            #   'rolling_10pitch': 'Last 10 Batters Faced',
                               'pitcher_previous_stats_szn_bases': 'Season Opp Slugging',
-                              'rolling_10pitch_bases': 'Last 10 Batters Slugging',
+                            #   'rolling_10pitch_bases': 'Last 10 Batters Slugging',
                               'pitcher_fast_spread': 'Fastball %',
                               'pitcher_offspeed_spread': 'Off-speed %'})
 
@@ -99,15 +99,15 @@ columns[0].dataframe(pitcher_stats, width=1000)
 # Hitter stats
 hitter_stats = hitters[(hitters.full_name == hitter) & (hitters.team_nickname == hitting_team)]
 
-hitter_stats = hitter_stats[['hitter_ab_count', 'hitter_hand', 'hitter_previous_stats_szn', 'rolling_10ab',
-                              'hitter_previous_stats_szn_slug', 'rolling_10ab_slug', 'hitter_fast_eff' ,'hitter_offspeed_eff']]
+hitter_stats = hitter_stats[['hitter_ab_count', 'hitter_hand', 'hitter_previous_stats_szn',
+                              'hitter_previous_stats_szn_slug', 'hitter_fast_eff','hitter_offspeed_eff']]
 
 hitter_stats['hitter_ab_count'] = int(hitter_stats['hitter_ab_count'])
 
 hitter_stats['hitter_previous_stats_szn'] = round(hitter_stats['hitter_previous_stats_szn'],3)
-hitter_stats['rolling_10ab'] = round(hitter_stats['rolling_10ab'],3)
+# hitter_stats['rolling_10ab'] = round(hitter_stats['rolling_10ab'],3)
 hitter_stats['hitter_previous_stats_szn_slug'] = round(hitter_stats['hitter_previous_stats_szn_slug'],3)
-hitter_stats['rolling_10ab_slug'] = round(hitter_stats['rolling_10ab_slug'],3)
+# hitter_stats['rolling_10ab_slug'] = round(hitter_stats['rolling_10ab_slug'],3)
 
 hitter_stats['hitter_fast_eff'] = round(hitter_stats['hitter_fast_eff'], 3)
 hitter_stats['hitter_offspeed_eff'] = round(hitter_stats['hitter_offspeed_eff'], 3)
@@ -115,9 +115,9 @@ hitter_stats['hitter_offspeed_eff'] = round(hitter_stats['hitter_offspeed_eff'],
 hitter_stats = hitter_stats.rename(columns={'hitter_ab_count': '2023 At Bats',
                               'hitter_hand': 'Batter Hand',
                               'hitter_previous_stats_szn': 'Season OBP',
-                              'rolling_10ab': 'Last 10 At Bats OBP',
+                            #   'rolling_10ab': 'Last 10 At Bats OBP',
                               'hitter_previous_stats_szn_slug': 'Season Slugging',
-                              'rolling_10ab_slug': 'Last 10 At Bats Slugging',
+                            #   'rolling_10ab_slug': 'Last 10 At Bats Slugging',
                               'hitter_fast_eff': 'Fastball Efficiency',
                               'hitter_offspeed_eff': 'Off-speed Efficiency'})
 
@@ -137,14 +137,7 @@ params = {
 
 if st.button("Predict"):
 
-    st.write("Calcuting at bat outcome odds.....")
-    bar = st.progress(0)
-
-
-    for i in range(100):
-
-        bar.progress(i+1)
-        time.sleep(0.2  )
+    st.write("Calculating at bat prediction.....")
 
     # # # # Print resul
     # st.write(f"{hitter} bats the ball !!!")
@@ -157,6 +150,7 @@ if st.button("Predict"):
 
 
     mbl_api_url = 'https://mlb1315-ovcniiq53a-ew.a.run.app/predict'  # Replace with your API endpoint
+
     try:
         response = requests.get(mbl_api_url, params=params)
         response.raise_for_status()  # Raise an exception if the request is not successful
@@ -167,13 +161,13 @@ if st.button("Predict"):
         proba = prediction.get('probability') # Use .get() to avoid KeyError if 'probability' is missing
 
         if pred == 1:
-            text = (f"{hitter} is projected reach base against {pitcher}, with a {proba} probability")
-            st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{text}</span></strong></div>", unsafe_allow_html=True)
+            text = (f"{hitter} is projected reach base against {pitcher}, with a {round(proba,2)}% probability")
+            st.write(f"<div style='text-align:center'><strong><span style='font-size:30px'>{text}</span></strong></div>", unsafe_allow_html=True)
 
         elif pred == 0:
             text = (f"{pitcher} is projected to win this at bat!")
             text2 = (f"{hitter} has a {round(proba,2)}% probability reach base without an out")
-            st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{text}</span></strong></div>", unsafe_allow_html=True)
+            st.write(f"<div style='text-align:center'><strong><span style='font-size:30px'>{text}</span></strong></div>", unsafe_allow_html=True)
             st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{text2}</span></strong></div>", unsafe_allow_html=True)
         else:
             st.warning(f"Unexpected prediction value: {pred}")
