@@ -1,0 +1,932 @@
+id,status,position,primary_position,first_name,last_name,preferred_name,jersey_number,depth,team_id,team_nickname
+5a5c2129-3f87-43ee-8f6b-a2b6ca91bab4,A,OF,LF,Matthew,Marlowe,Cade,18,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+c59cd03a-ead5-41d4-9b4a-d26f0dd04ea6,A,OF,LF,Dominic,Canzone,Dominic,8,2,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+bfa2cdb5-bcef-4d21-b84d-b2e7fb57d85c,A,OF,RF,Dylan,Moore,Dylan,25,3,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+e750ccd5-7a24-44ef-b661-0d41baa17d1c,A,OF,CF,Julio,Rodríguez,Julio,44,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+bfa2cdb5-bcef-4d21-b84d-b2e7fb57d85c,A,OF,RF,Dylan,Moore,Dylan,25,2,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+5a5c2129-3f87-43ee-8f6b-a2b6ca91bab4,A,OF,LF,Matthew,Marlowe,Cade,18,3,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+19dc4d37-db3d-4289-bf15-4705ddb56d30,A,OF,RF,Teoscar,Hernández,Teoscar,35,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+27e91ba7-4a19-4548-91fc-8d70a29b9b8a,A,IF,3B,Eugenio,Suárez,Eugenio,28,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+c5756137-aad3-4279-a217-cff96ccf0db8,A,IF,2B,José,Caballero,José,76,2,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+4346eb23-510c-438b-9a6a-9e92b8a5b5a4,A,IF,SS,John,Crawford,J.P.,3,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+c5756137-aad3-4279-a217-cff96ccf0db8,A,IF,2B,José,Caballero,José,76,3,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+cd4ccb68-8795-4486-a7d6-989072685c42,A,IF,3B,Joshua,Rojas,Josh,4,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+0ff1ba0b-2e3d-4fcc-8419-057d0833f887,A,IF,1B,Tyler,France,Ty,23,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+eedd0e21-283e-4534-aa38-afe98d4415a1,A,IF,1B,Michael,Ford,Mike,20,2,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+71791d18-9c59-4e2f-863d-007d3cdd7efd,A,P,SP,Luis,Castillo,Luis,58,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+d3a08e67-05e9-4f54-b7b1-807c8e9beaf2,A,P,SP,Logan,Gilbert,Logan,36,2,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+47a41eee-f06a-4590-af22-453fdd7bd39d,A,P,SP,George,Kirby,George,68,3,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+3e72c29b-c305-4e6b-8311-0bec2e447b72,A,P,SP,Bryce,Miller,Bryce,50,4,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+5f42fd84-97c3-4c95-bf35-ad67f4b08443,A,P,SP,Bryan,Woo,Bryan,33,5,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+60b7e25e-7765-4d8b-82a6-d33e7179dae5,A,P,SP,Luke,Weaver,Luke,30,6,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+7f4e9216-53eb-468a-bf55-9d8026c05642,A,C,C,Caleb,Raleigh,Cal,29,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+954e990e-050e-4cc1-b0d4-34f6ac693b20,A,C,C,Brian,O'Keefe,Brian,64,2,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+eedd0e21-283e-4534-aa38-afe98d4415a1,A,IF,1B,Michael,Ford,Mike,20,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+19dc4d37-db3d-4289-bf15-4705ddb56d30,A,OF,RF,Teoscar,Hernández,Teoscar,35,3,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+2c49a12d-9242-43e0-b6b7-d2588b46ff77,A,P,RP,Justin,Topa,Justin,48,1,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+7f15e43d-14bb-4564-b7f5-24ded570ef64,A,P,RP,Matthew,Brash,Matt,47,2,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+da007384-6e98-476a-9972-a47cd0e0aae2,A,P,RP,Gabriel,Speier,Gabe,55,3,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+eb18a549-a572-4f11-8780-9d872e7da67c,A,P,RP,Tayler,Saucedo,Tayler,60,4,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+f4cbd525-3cca-47dc-847a-5e4c68ccdada,A,P,RP,Isaiah,Campbell,Isaiah,49,5,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+c7513e8c-c4a0-4ece-8815-cd2889c61226,A,P,RP,Trent,Thornton,Trent,46,6,43a39081-52b4-4f93-ad29-da7f329ea960,Mariners
+a522f82a-e920-4ece-8e29-3f16630bf635,A,OF,LF,Travis,Jankowski,Travis,16,3,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+962bf98a-22a3-4958-b296-f569bfd7407f,A,OF,LF,Robert,Grossman,Robbie,4,5,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+ccc0da4d-e4c0-46e9-8700-361a9bbd3625,A,IF,3B,Ezequiel,Duran,Ezequiel,20,6,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+df34fa21-1eb8-4976-994e-fd9c8706e33c,A,IF,SS,Josh,Smith,Josh H.,47,7,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+18d0eb5e-10be-425b-8f6c-0d204b449fe2,A,OF,CF,Julio Pablo,Martinez,J.P.,50,8,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+232a2331-2ab1-4cae-b8de-8b2e0bff5802,A,OF,CF,Leody,Taveras,Leody,3,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+8f44f889-278d-4321-9158-bb8a4a7ef271,A,OF,RF,Jose Adolis,García,Adolis,53,2,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+18d0eb5e-10be-425b-8f6c-0d204b449fe2,A,OF,CF,Julio Pablo,Martinez,J.P.,50,3,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+8f44f889-278d-4321-9158-bb8a4a7ef271,A,OF,RF,Jose Adolis,García,Adolis,53,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+962bf98a-22a3-4958-b296-f569bfd7407f,A,OF,LF,Robert,Grossman,Robbie,4,2,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+ccc0da4d-e4c0-46e9-8700-361a9bbd3625,A,IF,3B,Ezequiel,Duran,Ezequiel,20,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+df34fa21-1eb8-4976-994e-fd9c8706e33c,A,IF,SS,Josh,Smith,Josh H.,47,2,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+ca159e78-05a9-410a-be7b-3ebad5496a88,A,IF,SS,Corey,Seager,Corey,5,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+ccc0da4d-e4c0-46e9-8700-361a9bbd3625,A,IF,3B,Ezequiel,Duran,Ezequiel,20,2,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+df34fa21-1eb8-4976-994e-fd9c8706e33c,A,IF,SS,Josh,Smith,Josh H.,47,3,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+c2d72221-932c-4155-9121-eaa87cfed176,A,IF,2B,Marcus,Semien,Marcus,2,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+479ea4a2-43ea-4f5f-93be-b875aab7088d,A,IF,1B,David,Lowe,Nathaniel,30,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+2527770b-cf48-42b9-81fa-9323756fb311,A,P,SP,Maxwell,Scherzer,Max,31,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+e96d88f5-3593-48fb-b1fd-840b41c08cc5,A,P,SP,Jordan,Montgomery,Jordan,52,2,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+106c933c-0203-4e5a-bd06-f8bc420b9b9f,A,P,SP,Jonathan,Gray,Jon,22,3,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+ade46bf9-fcaa-4185-8fc9-79af6d2ec81b,A,P,SP,Andrew,Heaney,Andrew,44,4,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+f4c93b6c-749c-409a-bcd5-58fb2ef53246,A,P,SP,Dane,Dunning,Dane,33,5,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+f75cce17-221d-4269-84ea-92083c354af7,A,C,C,Jonah,Heim,Jonah,28,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+a8efa694-2d64-4ad3-bf39-7d4f9006be7f,A,C,C,Mitchell,Garver,Mitch,18,2,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+3391b452-8d5f-4730-8edc-9844b4f336a6,A,C,C,Austin,Hedges,Austin,11,3,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+a8efa694-2d64-4ad3-bf39-7d4f9006be7f,A,C,C,Mitchell,Garver,Mitch,18,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+ccc0da4d-e4c0-46e9-8700-361a9bbd3625,A,IF,3B,Ezequiel,Duran,Ezequiel,20,3,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+df34fa21-1eb8-4976-994e-fd9c8706e33c,A,IF,SS,Josh,Smith,Josh H.,47,4,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+17a14a6a-42f8-4f2e-86f3-42051584563e,A,P,RP,Albertin,Chapman,Aroldis,45,1,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+36033e23-516d-48fb-90d3-4309e329fca5,A,P,RP,José,Leclerc,José,25,2,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+cdd52cf2-b10d-456a-9a92-1d74e1f05bac,A,P,RP,Christopher,Stratton,Chris,35,3,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+5cc6bf5e-80b0-42ef-8735-1f1df4af3a12,A,P,RP,Joshua,Sborz,Josh,66,4,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+eb458d81-ba52-443b-8a22-e9c35d089012,A,P,RP,Brock,Burke,Brock,46,5,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+a6651b0c-51b9-4586-a4e6-edb74b826daa,A,P,RP,Grant,Anderson,Grant,65,6,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+9012e198-9f53-4885-8b24-402e51524e82,A,P,SP,Martín,Pérez,Martín,54,7,d99f919b-1534-4516-8e8a-9cd106c6d8cd,Rangers
+5a1ba87b-8ec6-4588-97c8-79db8d044cca,A,OF,LF,Randal,Grichuk,Randal,15,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+7af39f78-8e04-408d-a1b5-66ab3dcd99ac,A,OF,CF,McKenzie,Moniak,Mickey,16,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+7f518632-2d5d-48c8-b994-2d4d43a1ef3b,A,OF,CF,Michael,Trout,Mike,27,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+8795cd8e-0a6d-4207-b0b9-ccedd1822c13,A,IF,SS,Andrew,Velazquez,Andrew,4,3,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+89bab4bd-0fb6-41a6-88d6-0fd6307ae072,A,OF,RF,Dustin,Renfroe,Hunter,12,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+5a5c2351-19ee-440a-8db9-07583ff96005,A,IF,SS,Luis,Rengifo,Luis,2,3,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+3c23b78d-dd1d-451e-8754-31978e3da7c2,A,IF,3B,Michael,Moustakas,Mike,8,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+178af28f-f5bb-49e1-9770-71d6e39edb63,A,IF,3B,Eduardo,Escobar,Eduardo,5,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+5a5c2351-19ee-440a-8db9-07583ff96005,A,IF,SS,Luis,Rengifo,Luis,2,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+8795cd8e-0a6d-4207-b0b9-ccedd1822c13,A,IF,SS,Andrew,Velazquez,Andrew,4,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+37de17c5-5ff0-449e-b6a9-a936d1c9a78b,A,IF,2B,Brandon,Drury,Brandon,23,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+5a5c2351-19ee-440a-8db9-07583ff96005,A,IF,SS,Luis,Rengifo,Luis,2,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+178af28f-f5bb-49e1-9770-71d6e39edb63,A,IF,3B,Eduardo,Escobar,Eduardo,5,3,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+55915d43-9546-4325-adcc-e2c2bfc87257,A,IF,1B,Nolan,Schanuel,Nolan,18,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+3c23b78d-dd1d-451e-8754-31978e3da7c2,A,IF,3B,Michael,Moustakas,Mike,8,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+89bab4bd-0fb6-41a6-88d6-0fd6307ae072,A,OF,RF,Dustin,Renfroe,Hunter,12,3,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+1a1311e0-465c-45de-9f94-78e52fc067c3,A,P,SP,Lucas,Giolito,Lucas,24,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+80de60c9-74e3-4a50-b128-b3dc7456a254,A,P,DH,Shohei,Ohtani,Shohei,17,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+a920073f-154b-4173-a8ff-aed0b2c22711,A,P,SP,Tyler,Anderson,Tyler,31,3,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+f69252fd-0aa5-4043-9875-d0aa4915056a,A,P,SP,Patrick,Sandoval,Patrick,43,4,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+1cdd5198-b8c8-4c0f-8c96-b0192b00b8b2,A,P,SP,Reid,Detmers,Reid,48,5,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+35060d8e-3e99-4c49-b5db-36896605f930,A,P,SP,Chase,Silseth,Chase,63,6,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+470b008b-639b-4f14-975b-1eb51d918358,A,P,SP,Griffin,Canning,Griffin,47,7,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+01da151f-6bd7-4066-a597-51accffb0e21,A,C,C,Matthew,Thaiss,Matt,21,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+b9f3e10f-8221-40c6-9b1d-7c4613df9a4d,A,C,C,Logan,O'Hoppe,Logan,14,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+80de60c9-74e3-4a50-b128-b3dc7456a254,A,P,DH,Shohei,Ohtani,Shohei,17,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+942dc231-6052-4410-9bad-e94e465bc914,A,P,RP,Reynaldo,López,Reynaldo,41,1,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+a4d6c32a-74f0-45ff-a397-ca045fcaba2b,A,P,RP,Matthew,Moore,Matt,55,2,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+8968ebe3-c396-47f1-b348-dc7499172867,A,P,RP,Dominic,Leone,Dominic,52,3,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+454b4642-c1ad-4b8e-8728-0d8bb03051be,A,P,RP,Aaron,Loup,Aaron,28,4,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+80ff939b-b430-4b28-b4fc-f3276b098af8,A,P,RP,José,Soriano,José,59,5,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+738eb5e8-2ab8-4428-928a-81a31b7228de,A,P,RP,Jaime,Barría,Jaime,51,6,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+320c97b3-d559-498b-9eb9-4c087c8cf9bb,A,P,RP,Jimmy,Herget,Jimmy,46,7,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+1780396a-30a4-4527-a6cc-59e74dc5c5e4,A,P,RP,Kenneth,Rosenberg,Kenny,78,8,4f735188-37c8-473d-ae32-1f7e34ccf892,Angels
+34b9b68f-3fcf-402c-8008-0414696a8b7c,A,OF,LF,Anthony,Kemp,Tony,5,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+88dba1cf-898b-441b-a1a5-78b067369e55,A,OF,LF,Brent,Rooker,Brent,25,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+757fddfc-e76b-4634-b1b2-7d34436013ee,A,IF,1B,Seth,Brown,Seth,15,3,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+bf2def72-3a2f-434e-8ee2-b7b829f6152c,A,OF,CF,Esteury,Ruiz,Esteury,1,4,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+bf2def72-3a2f-434e-8ee2-b7b829f6152c,A,OF,CF,Esteury,Ruiz,Esteury,1,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+2e7c7804-504d-45f6-ace4-9b53b511217c,A,IF,3B,Lawrence,Butler,Lawrence,22,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+757fddfc-e76b-4634-b1b2-7d34436013ee,A,IF,1B,Seth,Brown,Seth,15,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+40329519-020d-47b1-9dab-0a69ee835753,A,IF,2B,Jordan,Diaz,Jordan,13,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+60917df4-fff8-410e-8901-bd4944d4eb32,A,IF,3B,Aledmys,Díaz,Aledmys,12,3,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+85c1c224-ebbd-44ff-8f6f-6c50ffb85063,A,IF,3B,Jonah,Bride,Jonah,26,4,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+41f7dadd-2ae7-4a39-8e9a-a0948f27cf90,A,IF,SS,Nicholas,Allen,Nick,2,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+81ef2491-3e66-4358-a112-6c3f9f511aed,A,IF,2B,Zachary,Gelof,Zack,20,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+81ef2491-3e66-4358-a112-6c3f9f511aed,A,IF,2B,Zachary,Gelof,Zack,20,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+34b9b68f-3fcf-402c-8008-0414696a8b7c,A,OF,LF,Anthony,Kemp,Tony,5,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+85c1c224-ebbd-44ff-8f6f-6c50ffb85063,A,IF,3B,Jonah,Bride,Jonah,26,3,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+60917df4-fff8-410e-8901-bd4944d4eb32,A,IF,3B,Aledmys,Díaz,Aledmys,12,4,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+7f5b4d55-78a3-44c6-a970-d7d9a2907391,A,IF,1B,Ryan,Noda,Ryan,49,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+757fddfc-e76b-4634-b1b2-7d34436013ee,A,IF,1B,Seth,Brown,Seth,15,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+c967b600-efdf-46ae-bb37-f4940fa29b2a,A,P,SP,Paul,Blackburn,Paul,58,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+9879d57f-6e61-4d12-be21-25c2b7328947,A,P,SP,John Patrick,Sears,JP,38,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+5f586661-b5eb-4830-80fe-d2e7a8d78a95,A,P,SP,Kenneth,Waldichuk,Ken,64,3,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+a7c82f82-a77a-44af-b973-771f84226804,A,P,SP,Kyle,Muller,Kyle,39,4,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+694e2e1a-0d39-482a-a254-a42e1aa39c04,A,C,C,Shea,Langeliers,Shea,23,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+6049097c-f59f-48d4-ae57-38f6027235a3,A,C,C,Carlos,Pérez,Carlos,44,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+88dba1cf-898b-441b-a1a5-78b067369e55,A,OF,LF,Brent,Rooker,Brent,25,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+85c1c224-ebbd-44ff-8f6f-6c50ffb85063,A,IF,3B,Jonah,Bride,Jonah,26,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+40329519-020d-47b1-9dab-0a69ee835753,A,IF,2B,Jordan,Diaz,Jordan,13,4,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+694e2e1a-0d39-482a-a254-a42e1aa39c04,A,C,C,Shea,Langeliers,Shea,23,5,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+30d522ec-b5f3-4836-8f53-4b7ad9b3086a,A,P,RP,Lucas,Erceg,Lucas,70,1,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+838754e3-6865-4e6f-b2f7-708451c78aa9,A,P,RP,Kirby,Snead,Kirby,54,2,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+ddc866dc-fc5a-4e14-aca0-72e557609c5c,A,P,RP,Francisco,Pérez,Francisco,60,3,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+514a5859-7f3f-4546-8b23-7cd221066240,A,P,RP,Adrián,Martínez,Adrián,55,4,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+169b7765-2519-4f2f-a67f-2e010c0d361e,A,P,SP,Zachary,Neal,Zach,31,5,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+73ee6ed9-cae7-4d55-a8f0-aa8e837312d8,A,P,RP,Dany,Jiménez,Dany,56,6,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+28b6b8aa-761b-4fdf-8708-838ea470c4f5,A,P,RP,Spencer,Patton,Spencer,19,7,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+c8034571-7279-4346-8490-15707c3b3c12,A,P,RP,Sean,Newcomb,Sean,16,8,27a59d3b-ff7c-48ea-b016-4798f560f5e1,Athletics
+fdc9c3af-4ad2-43b1-8537-10732d013ed8,A,OF,LF,Yordan,Alvarez,Yordan,44,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+8a9fc50a-3f22-48ae-ba60-e55da7b31a86,A,OF,LF,Corey,Julks,Corey,9,2,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+00b1a789-11e5-41aa-b914-5bafff1eb5dc,A,OF,CF,Chas,McCormick,Chas,20,3,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+229af0d4-8e71-4e57-9c40-abc9dfb21cbb,A,IF,2B,Mauricio,Dubón,Mauricio,14,4,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+42258713-4e3e-4fdb-9604-ee1560adb523,A,OF,CF,Jacob,Meyers,Jake,6,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+00b1a789-11e5-41aa-b914-5bafff1eb5dc,A,OF,CF,Chas,McCormick,Chas,20,2,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+f4a9ab1b-8458-40c9-a50f-bbef4f11fe58,A,OF,RF,Kyle,Tucker,Kyle,30,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+7229d580-9405-4d8b-b582-0980dbb2a46a,A,IF,3B,Alexander,Bregman,Alex,2,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+9051bae8-47d4-4821-83a1-93e80c633fc9,A,IF,SS,Jeremy,Peña,Jeremy,3,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+229af0d4-8e71-4e57-9c40-abc9dfb21cbb,A,IF,2B,Mauricio,Dubón,Mauricio,14,2,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+1616381c-d6ac-40b1-8c3f-c70d51bda098,A,IF,2B,Jose,Altuve,Jose,27,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+b59c6ed2-061e-4c9b-b624-2d1aee74853c,A,IF,1B,José,Abreu,José,79,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+d7bdaf25-52fb-4595-8194-ccc28a1f05e7,A,IF,1B,Jonathan,Singleton,Jon,28,2,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+ca2dd733-f69d-481c-bffe-78219a34df21,A,C,C,Yainer,Diaz,Yainer,21,3,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+2fe6cb9b-c41e-4ee2-9b22-f8b27bf6c5be,A,P,SP,Justin,Verlander,Justin,35,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+00026bf9-dc12-4711-8443-45fbac448ea0,A,P,SP,Framber,Valdez,Framber,59,2,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+00a81b80-a20f-4fb7-894f-23b4d1a63941,A,P,SP,Cristian,Javier,Cristian,53,3,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+7ba58155-1133-4f26-be65-9ce443e3fedc,A,P,SP,Hunter,Brown,Hunter,58,4,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+54a4a196-9a19-4af0-954e-f8d337542ecd,A,P,SP,José,Urquidy,José,65,5,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+f03fe236-d3b8-4bfd-b08b-963fd5c4391a,A,P,SP,Jonathan,France,J.P.,68,6,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+42f26786-3d3f-4db0-a975-fcf3b2c5938b,A,C,C,Martín,Maldonado,Martín,15,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+ca2dd733-f69d-481c-bffe-78219a34df21,A,C,C,Yainer,Diaz,Yainer,21,2,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+cc22e589-c92a-4fa1-9bfe-45684e91f837,A,P,RP,Hector,Neris,Hector,50,1,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+fd2a37d4-32ae-45e2-a0dd-d58e0d9ac869,A,P,RP,Bryan,Abreu,Bryan,52,2,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+18be2520-ed71-4e1e-94c8-29b0590e2b5c,A,P,RP,Kendall,Graveman,Kendall,31,3,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+ef2a7fa6-94d5-4875-b205-c5f2bd30758a,A,P,RP,Ryne,Stanek,Ryne,45,4,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+0be3617f-5d44-4609-967b-d16bc9681c96,A,P,RP,Rafael,Montero,Rafael,47,5,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+3a90b7a2-5d39-4165-8ef0-89a9432d517d,A,P,RP,Seth,Martinez,Seth,61,6,eb21dadd-8f10-4095-8bf3-dfb3b779f107,Astros
+4d568c58-5600-406f-8c67-6d7197e25976,A,OF,CF,Daulton,Varsho,Daulton,25,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+92500d32-2314-4c7c-91c5-110f95229f9a,A,IF,2B,Whitley,Merrifield,Whit,15,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+908cf3f8-d7a4-4346-b39e-1f4f66a21864,A,OF,CF,Kevin,Kiermaier,Kevin,39,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+4d568c58-5600-406f-8c67-6d7197e25976,A,OF,CF,Daulton,Varsho,Daulton,25,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+92500d32-2314-4c7c-91c5-110f95229f9a,A,IF,2B,Whitley,Merrifield,Whit,15,3,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+7f92278a-91c4-4c25-9e75-eaff3aed89b3,A,OF,RF,George,Springer,George,4,4,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+7f92278a-91c4-4c25-9e75-eaff3aed89b3,A,OF,RF,George,Springer,George,4,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+a0d999b0-5021-4f17-8082-e842e9e63ce4,A,IF,2B,Cavan,Biggio,Cavan,8,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+19e35294-99c1-4cd3-bf24-8c2bd0c4c512,A,IF,3B,Matt,Chapman,Matt,26,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+f48aaaa7-9891-4752-a650-1f625d153e6e,A,IF,3B,Davis,Schneider,Davis,36,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+a7d910e1-4815-42b6-9d1e-6af7fa8c3be4,A,IF,2B,Santiago,Espinal,Santiago,5,3,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+a0d999b0-5021-4f17-8082-e842e9e63ce4,A,IF,2B,Cavan,Biggio,Cavan,8,4,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+88344347-d02f-4bb0-ab54-81f26f13e5b1,A,IF,SS,Bo,Bichette,Bo,11,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+a7d910e1-4815-42b6-9d1e-6af7fa8c3be4,A,IF,2B,Santiago,Espinal,Santiago,5,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+f48aaaa7-9891-4752-a650-1f625d153e6e,A,IF,3B,Davis,Schneider,Davis,36,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+92500d32-2314-4c7c-91c5-110f95229f9a,A,IF,2B,Whitley,Merrifield,Whit,15,4,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+fa26a373-a427-4558-ba5e-6d6c0f0148c5,A,IF,1B,Vladimir,Guerrero Jr.,Vladimir,27,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+cef2e01f-1349-4e31-bf1e-757ae8cb6bc6,A,P,SP,Kevin,Gausman,Kevin,34,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+56da7cb9-5975-46cd-8c63-96fce1245945,A,P,SP,José,Berríos,José,17,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+90fa044f-7148-414c-af09-e0d4eb621775,A,P,SP,Christopher,Bassitt,Chris,40,3,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+7160046b-1575-40ab-bd09-9d11bbac7957,A,P,SP,Yusei,Kikuchi,Yusei,16,4,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+01d71849-6f8e-4394-ae98-155bd61c68e8,A,P,SP,Hyun Jin,Ryu,Hyun Jin,99,5,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+717333c5-59e0-41f4-a1d9-dd58ad2661ef,A,C,C,Alejandro,Kirk,Alejandro,30,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+8d777ecb-4ab5-4c35-9daa-a1124a200b11,A,C,C,Daniel,Jansen,Danny,9,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+36ee970b-0cff-4d50-b8ac-9bd16fae2dd1,A,DH,DH,Brandon,Belt,Brandon,13,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+fa26a373-a427-4558-ba5e-6d6c0f0148c5,A,IF,1B,Vladimir,Guerrero Jr.,Vladimir,27,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+717333c5-59e0-41f4-a1d9-dd58ad2661ef,A,C,C,Alejandro,Kirk,Alejandro,30,3,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+b6064f09-31ae-4d05-832c-2f4c4043c7cb,A,P,RP,Jordan,Hicks,Jordan,12,1,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+ffa959cf-a28b-4218-a8a7-0987232e535d,A,P,RP,Erik,Swanson,Erik,50,2,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+3731cc61-f348-4155-bccc-a46a2a7edbf3,A,P,RP,Yimi,García,Yimi,93,3,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+71948aff-effa-49e9-a040-396bc6b22f31,A,P,RP,Trevor,Richards,Trevor,33,4,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+3ebc6d31-8050-43d2-9f0f-b74bb1f2e018,A,P,RP,Timothy,Mayza,Tim,58,5,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+f3719f44-d0f6-4d30-9bb3-22a3f315aae7,A,P,RP,Génesis,Cabrera,Génesis,92,6,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+33d74b50-ee53-42d2-8556-0d77e2c4a148,A,P,RP,Bowden,Francis,Bowden,44,7,1d678440-b4b1-4954-9b39-70afb3ebbcfa,Blue Jays
+4f278e0d-ab63-4c05-906e-5a876497c0f2,A,IF,1B,Jakob,Bauers,Jake,61,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+b54ace79-5c94-45d1-873a-7ae90e5c6726,A,DH,DH,Giancarlo,Stanton,Giancarlo,27,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+f2c55fb7-f18f-44ab-80a0-7e5d8ee165cc,A,OF,LF,Oswaldo,Cabrera,Oswaldo,95,3,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+b6eb38af-2e03-46ba-b613-9185987940f2,A,OF,CF,Harrison,Bader,Harrison,22,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+dbb22a89-328a-4f40-9bfe-a102abba9135,A,OF,CF,Everson,Pereira,Everson,80,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+283f2c57-6441-4173-b5a0-728e46b8c894,A,OF,CF,Isiah,Kiner-Falefa,Isiah,12,3,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+86f7390e-61bd-4556-8325-a6705c7f693b,A,OF,RF,Aaron,Judge,Aaron,99,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+4f278e0d-ab63-4c05-906e-5a876497c0f2,A,IF,1B,Jakob,Bauers,Jake,61,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+b54ace79-5c94-45d1-873a-7ae90e5c6726,A,DH,DH,Giancarlo,Stanton,Giancarlo,27,3,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+d1c07b01-a86d-4c17-ac38-8217e364c2cf,A,IF,3B,David,LeMahieu,DJ,26,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+ed8b8c51-cb02-4ffb-b72d-d6e2c14a64f4,A,IF,3B,Oswald,Peraza,Oswald,91,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+50d52558-a392-4e6a-b734-4f8726659535,A,IF,SS,Anthony,Volpe,Anthony,11,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+283f2c57-6441-4173-b5a0-728e46b8c894,A,OF,CF,Isiah,Kiner-Falefa,Isiah,12,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+781d3396-df55-4b42-bea4-5c9cad9dcad0,A,IF,2B,Gleyber,Torres,Gleyber,25,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+d1c07b01-a86d-4c17-ac38-8217e364c2cf,A,IF,3B,David,LeMahieu,DJ,26,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+eebc991a-23ea-4f1c-ba3b-37ff21ee1603,A,P,SP,Gerrit,Cole,Gerrit,45,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+b5fe445d-6ac4-4542-a73c-69afced32a97,A,P,SP,Carlos,Rodón,Carlos,55,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+98382676-6df3-4b1f-9bc8-8c2f1fd28621,A,P,SP,Clarke,Schmidt,Clarke,36,3,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+fa34724d-b540-4705-9d2c-7f50f81865b3,A,P,SP,Luis,Severino,Luis,40,4,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+d6d28d10-085a-4122-86c0-2886b5ec362a,A,P,SP,Jhony,Brito,Jhony,76,5,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+85554a9a-0ff8-4886-844c-9b440ed94d61,A,C,C,Kyle,Higashioka,Kyle,66,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+dfa76d1d-ad2d-435e-afef-5edc10dbb50e,A,C,C,Benjamin,Rortvedt,Ben,38,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+b54ace79-5c94-45d1-873a-7ae90e5c6726,A,DH,DH,Giancarlo,Stanton,Giancarlo,27,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+b0b80d42-de4b-4722-b4fa-bbdbb0d5d53e,A,P,RP,Wandy,Peralta,Wandy,58,1,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+8adff54a-cb4b-4692-b18c-e9aaa9a8e076,A,P,RP,Michael,King,Michael,34,2,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+257b1387-5dfa-4674-a3b7-6eb561ed2f06,A,P,RP,Thomas,Kahnle,Tommy,41,3,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+450c50cd-69aa-4389-a5eb-ca6eaa3a0931,A,P,RP,Keynan,Middleton,Keynan,93,4,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+5d89265b-ae25-4362-807a-7b4d9a67ae55,A,P,RP,Jonathan,Loáisiga,Jonathan,43,5,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+f4fb7a7f-4ab4-4f1e-8a82-1561d87a7f04,A,P,RP,Ian,Hamilton,Ian,71,6,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+1cee0c9e-5464-41c3-a3f4-be0c5863875f,A,P,RP,Albert,Abreu,Albert,84,7,a09ec676-f887-43dc-bbb3-cf4bbaee9a18,Yankees
+6de34681-ea14-4946-a3de-26053e746465,A,OF,LF,Masataka,Yoshida,Masataka,7,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+1d1881bd-d65e-4180-88bd-059044cc1755,A,OF,CF,Robert,Refsnyder,Rob,30,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+52163b85-2956-4777-b31a-b7d1ce217eb0,A,OF,CF,Adam,Duvall,Adam,18,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+6f7a2f3c-0341-47be-a60a-f6c15d7a9a0b,A,OF,RF,Alex,Verdugo,Alex,99,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+77c82fc6-3923-496a-a055-3e05c3e95b39,A,OF,RF,Wilyer,Abreu,Wilyer,52,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+1d1881bd-d65e-4180-88bd-059044cc1755,A,OF,CF,Robert,Refsnyder,Rob,30,3,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+52163b85-2956-4777-b31a-b7d1ce217eb0,A,OF,CF,Adam,Duvall,Adam,18,4,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+fe966998-15e1-4022-89d5-6b4750516176,A,IF,3B,Rafael,Devers,Rafael,11,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+17cf120a-ee8e-4f16-9a6c-9b16664ad801,A,IF,SS,Pablo,Reyes,Pablo,19,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+b158fb37-c794-4708-86fb-7cf18287dc97,A,IF,2B,Luis,Urías,Luis,17,3,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+893e5243-1278-476c-8801-280b9b14aea7,A,DH,DH,Justin,Turner,Justin,2,4,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+f8ab2aa3-26ce-447c-9db5-83ea5f13da0c,A,IF,SS,Trevor,Story,Trevor,10,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+b158fb37-c794-4708-86fb-7cf18287dc97,A,IF,2B,Luis,Urías,Luis,17,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+893e5243-1278-476c-8801-280b9b14aea7,A,DH,DH,Justin,Turner,Justin,2,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+3a1835ea-ac3e-4a62-a5ef-7705c26dd802,A,IF,1B,Triston,Casas,Triston,36,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+2d8511cd-e05d-40cf-8672-3d6706ae39e3,A,P,SP,James,Paxton,James,65,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+3c5c48e4-cdc8-43e1-8239-a15e78677139,A,P,SP,Brayan,Bello,Brayan,66,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+d548d8c4-f974-4ee8-873f-16b72429d2c3,A,P,SP,Kutter,Crawford,Kutter,50,3,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+1b0ad742-0bc5-49b0-abe0-005e8581b1d3,A,P,SP,Tanner,Houck,Tanner,89,4,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+66c43b7f-760a-446c-9f50-671915570227,A,P,SP,Christopher,Sale,Chris,41,5,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+d49a253f-518e-4a86-9dcf-c91497c29d92,A,P,SP,Nicholas,Pivetta,Nick,37,6,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+dc90f6e6-0e5d-4272-8070-9cd82ee97959,A,C,C,Connor,Wong,Connor,12,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+a7f1b8e8-1040-4b51-9eb9-ef3ede3ea8bd,A,C,C,Reese,McGuire,Reese,3,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+893e5243-1278-476c-8801-280b9b14aea7,A,DH,DH,Justin,Turner,Justin,2,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+3a1835ea-ac3e-4a62-a5ef-7705c26dd802,A,IF,1B,Triston,Casas,Triston,36,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+6de34681-ea14-4946-a3de-26053e746465,A,OF,LF,Masataka,Yoshida,Masataka,7,3,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+4e52e687-a91b-40ca-9ebd-1bf8006a6d53,A,P,RP,Christopher,Martin,Chris,55,1,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+168e458f-a73b-4361-b25b-31fe1eb50e61,A,P,RP,Joshua,Winckowski,Josh,25,2,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+0f25d081-94d3-46b7-b534-2699a252a140,A,P,RP,John,Schreiber,John,46,3,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+2cf674c0-51a0-4aab-9303-c872345243c4,A,P,RP,Brennan,Bernardino,Brennan,83,4,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+61bc96e6-dbb3-4dc0-972d-0c85d49f37ca,A,P,SP,Garrett,Whitlock,Garrett,22,5,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+eb959fab-f117-4ae1-825c-55e641f9e5cb,A,P,RP,Mauricio,Llovera,Mauricio,68,6,93941372-eb4c-4c40-aced-fe3267174393,Red Sox
+7057e7fa-6d96-451e-9546-2e43d5e116d6,A,OF,LF,Randy,Arozarena,Randy,56,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+4d98a6ec-d2d4-4b23-8e4d-d44e0e828512,A,OF,RF,Lucas,Raley,Luke,55,2,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+8528380c-334b-44eb-a0c9-b1b354110899,A,DH,DH,Harold,Ramírez,Harold,43,3,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+131182ce-81e4-410b-aaba-4a4fc6b7676b,A,OF,CF,Jose,Siri,Jose,22,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+e29b3d43-083a-46c8-8480-ef03dd9b2670,A,OF,RF,Joshua,Lowe,Josh,15,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+cdf1abd4-753d-4e58-843f-ca5d5bb25ee5,A,IF,3B,Isaac,Paredes,Isaac,17,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+1e4ef041-1061-4300-a43c-d58eaf36a3f1,A,IF,2B,Curtis,Mead,Curtis,25,2,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+c91b7458-14bf-4a62-b147-c47ad2f19396,A,IF,1B,Yandy,Díaz,Yandy,2,3,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+444c8c4c-2fda-4078-bedf-ae0683e9d5c8,A,IF,SS,Osleivis,Basabe,Osleivis,37,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+cdf1abd4-753d-4e58-843f-ca5d5bb25ee5,A,IF,3B,Isaac,Paredes,Isaac,17,2,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+1e4ef041-1061-4300-a43c-d58eaf36a3f1,A,IF,2B,Curtis,Mead,Curtis,25,3,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+cafd29c0-91ac-4472-819c-c6dfb04bad71,A,IF,2B,Brandon,Lowe,Brandon,8,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+ec551b49-c8ec-4333-8765-f277f8e3291a,A,IF,2B,Jonathan,Aranda,Jonathan,62,2,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+cdf1abd4-753d-4e58-843f-ca5d5bb25ee5,A,IF,3B,Isaac,Paredes,Isaac,17,4,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+c91b7458-14bf-4a62-b147-c47ad2f19396,A,IF,1B,Yandy,Díaz,Yandy,2,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+ec551b49-c8ec-4333-8765-f277f8e3291a,A,IF,2B,Jonathan,Aranda,Jonathan,62,3,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+8528380c-334b-44eb-a0c9-b1b354110899,A,DH,DH,Harold,Ramírez,Harold,43,4,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+cdf1abd4-753d-4e58-843f-ca5d5bb25ee5,A,IF,3B,Isaac,Paredes,Isaac,17,5,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+1b65d697-deeb-4eec-8bc3-c704a21c7cda,A,P,SP,Aaron,Civale,Aaron,34,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+dc22b8c1-fc07-4f68-ae4c-254e9dcc74c1,A,P,SP,Zachary,Eflin,Zach,24,2,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+81125861-72f8-461c-b7c2-46fc460a7115,A,P,SP,Tyler,Glasnow,Tyler,20,3,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+fe0fc487-45d3-4178-9fd7-6c00025aff7e,A,P,SP,Zack,Littell,Zack,52,4,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+f5a594e5-adfe-4678-ac59-d4b3c823ce37,A,C,C,Christian,Bethancourt,Christian,14,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+f0410dba-4fbd-46fc-8ce8-8575f0fa0a32,A,C,C,René,Pinto,René,50,2,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+8528380c-334b-44eb-a0c9-b1b354110899,A,DH,DH,Harold,Ramírez,Harold,43,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+7057e7fa-6d96-451e-9546-2e43d5e116d6,A,OF,LF,Randy,Arozarena,Randy,56,4,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+bb8651aa-fe5b-41ca-9b19-dca358fb9507,A,P,RP,Jason,Adam,Jason,47,1,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+6ff68416-4a92-49e8-8432-b672e0e6d4db,A,P,RP,Andrew,Kittredge,Andrew,36,2,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+9f50b346-bcfd-40ca-995c-83bb942c81e4,A,P,RP,Colin,Poche,Colin,38,3,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+b469052e-5b3b-42fa-bfe5-bdd91c6ccee5,A,P,RP,Jacob,Diekman,Jake,30,4,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+fba71c66-344e-44b7-a5b8-1b67f6a3c767,A,P,RP,Robert,Stephenson,Robert,26,5,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+636653db-659f-46b4-a672-fcc478fc5be5,A,P,RP,Shawn,Armstrong,Shawn,64,6,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+e10239f6-8a6e-42af-bfb1-03fdf173af3d,A,P,RP,Erasmo,Ramírez,Erasmo,61,7,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+e4991724-8362-4ac7-ab6e-f9e8f8a063ae,A,P,SP,Jacob,Lopez,Jacob,74,8,bdc11650-6f74-49c4-875e-778aeb7632d9,Rays
+0f626ddc-1c79-43af-9407-12aa1381d420,A,OF,LF,Austin,Hays,Austin,21,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+7886119a-782e-4a4e-be38-a2de42405b08,A,OF,RF,Ryan,McKenna,Ryan,26,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+cb07e138-22b7-4a0a-a294-5b9d89475e1d,A,IF,2B,Adam,Frazier,Adam,12,3,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+95f62738-6fd7-48a0-b8a8-46f17c0f939c,A,IF,1B,Ryan,O'Hearn,Ryan,32,4,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+faf93f6f-b60e-4c9e-a83f-5ba8b0aca02c,A,OF,CF,Boyce,Mullins,Cedric,31,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+0f626ddc-1c79-43af-9407-12aa1381d420,A,OF,LF,Austin,Hays,Austin,21,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+d4bc8879-c7dc-430f-bcb8-e932b21a2e7c,A,OF,RF,Anthony,Santander,Anthony,25,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+95f62738-6fd7-48a0-b8a8-46f17c0f939c,A,IF,1B,Ryan,O'Hearn,Ryan,32,3,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+0672f3d5-5781-47bb-b111-abec96c38355,A,IF,3B,Ramón,Urías,Ramón,29,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+770894ef-45bc-4a10-a18e-d35b4b1fa867,A,IF,SS,Gunnar,Henderson,Gunnar,2,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+c485275f-bbe2-42e5-9480-3c2c739c7805,A,IF,3B,Jordan,Westburg,Jordan,11,3,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+770894ef-45bc-4a10-a18e-d35b4b1fa867,A,IF,SS,Gunnar,Henderson,Gunnar,2,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+9b8a295d-bae1-4684-bf38-9f64dc0fd22e,A,IF,SS,Jorge,Mateo,Jorge,3,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+cb07e138-22b7-4a0a-a294-5b9d89475e1d,A,IF,2B,Adam,Frazier,Adam,12,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+c485275f-bbe2-42e5-9480-3c2c739c7805,A,IF,3B,Jordan,Westburg,Jordan,11,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+0672f3d5-5781-47bb-b111-abec96c38355,A,IF,3B,Ramón,Urías,Ramón,29,3,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+9fc34f7c-7d68-4d82-9460-0b12f3e728b5,A,IF,1B,Ryan,Mountcastle,Ryan,6,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+95f62738-6fd7-48a0-b8a8-46f17c0f939c,A,IF,1B,Ryan,O'Hearn,Ryan,32,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+d4bc8879-c7dc-430f-bcb8-e932b21a2e7c,A,OF,RF,Anthony,Santander,Anthony,25,4,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+7f930115-f071-4c18-a2ef-ad5cf6c49b54,A,P,SP,Kyle,Gibson,Kyle,48,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+9c506364-e0fa-45b9-9313-16f6e87e0327,A,P,SP,Jack,Flaherty,Jack,15,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+ac593ed6-be4c-46be-b1ab-9a18da4338cf,A,P,SP,Kyle,Bradish,Kyle,39,3,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+dba3e740-244b-487e-8122-2adc89c206f1,A,P,SP,Dean,Kremer,Dean,64,4,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+8e17fe93-87da-4a6c-a63e-32a8083470cc,A,P,SP,Grayson,Rodriguez,Grayson,30,5,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+4c0f334c-1e2a-4917-840d-109fa30c45a3,A,P,RP,Cole,Irvin,Cole,19,6,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+e1aabb4c-3fa9-4053-b2a7-29a05607df88,A,C,C,Adley,Rutschman,Adley,35,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+71580b08-acfc-4d33-9670-6e5a82f389ea,A,C,C,James,McCann,James,27,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+e1aabb4c-3fa9-4053-b2a7-29a05607df88,A,C,C,Adley,Rutschman,Adley,35,3,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+770894ef-45bc-4a10-a18e-d35b4b1fa867,A,IF,SS,Gunnar,Henderson,Gunnar,2,4,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+7650dd19-c947-4419-90b7-79b77bb00c37,A,P,RP,Yennier,Cano,Yennier,78,1,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+f136950d-c272-4bea-9de6-e850c2925fe3,A,P,RP,Shintaro,Fujinami,Shintaro,14,2,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+c3fa97e2-1ea0-4178-b4c3-3d33ac7444d5,A,P,RP,Austin,Voth,Austin,51,3,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+3c3e37f1-b7b1-4d64-ac0a-303dcc82f688,A,P,RP,Cionel,Pérez,Cionel,58,4,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+526a1205-0c3c-4c93-916d-5beeca478bb6,A,P,RP,Jacob,Webb,Jacob,66,5,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+1b1b2a53-fd3b-471b-b4cf-4e7a661c89c6,A,P,RP,Nicholas,Vespi,Nick,79,6,75729d34-bca7-4a0f-b3df-6f26c6ad3719,Orioles
+83b81ba1-2cdb-4bdb-a361-547babd28595,A,OF,LF,Akil,Baddoo,Akil,60,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+6886b386-f632-4ce4-86f4-e4f3f12d7671,A,OF,LF,Kerry,Carpenter,Kerry,30,2,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+8b1d6dfc-3769-400d-8dd5-d2a61186b16e,A,OF,RF,Matthew,Vierling,Matt,8,3,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+c2689320-b989-4bbc-9afb-28e06aa31077,A,OF,CF,Riley,Greene,Riley,31,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+80a1ea9a-1ab3-4158-a335-8565fd32ff7c,A,OF,CF,Parker,Meadows,Parker,22,2,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+8b1d6dfc-3769-400d-8dd5-d2a61186b16e,A,OF,RF,Matthew,Vierling,Matt,8,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+7bf4c47d-0b2d-4eb2-8cd2-4b0e82994193,A,IF,3B,Zachary,McKinstry,Zach,39,3,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+7bf4c47d-0b2d-4eb2-8cd2-4b0e82994193,A,IF,3B,Zachary,McKinstry,Zach,39,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+3d80e438-5595-45d3-a066-43eb43097915,A,IF,2B,Andy,Ibáñez,Andy,77,2,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+1ed33379-a8f4-456d-9ea8-e3081ed56767,A,IF,2B,Zachary,Short,Zack,59,3,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+497c4595-bd0f-4a9e-b9cf-cb2eacb735bb,A,IF,SS,Ednel,Báez,Javier,28,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+1ed33379-a8f4-456d-9ea8-e3081ed56767,A,IF,2B,Zachary,Short,Zack,59,2,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+3d80e438-5595-45d3-a066-43eb43097915,A,IF,2B,Andy,Ibáñez,Andy,77,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+12085747-6898-4d08-9ceb-c6860dd35f6d,A,IF,1B,Spencer,Torkelson,Spencer,20,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+93413a68-2c05-405a-a38c-9ee983b36913,A,P,SP,Eduardo,Rodriguez,Eduardo,57,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+a526a335-b798-4351-b1a1-ebeb96a21bd1,A,P,SP,Matthew,Manning,Matt,25,2,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+22187b04-0bc4-4351-a0f6-d41013673cb6,A,P,SP,Tarik,Skubal,Tarik,29,3,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+81188c28-2235-44cf-b11a-c58a192e3d4c,A,P,SP,Reese,Olson,Reese,45,4,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+6506c668-01ec-4f16-b00b-768f1a199b07,A,P,SP,Alexander,Faedo,Alex,49,5,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+b6ea052b-e46e-48c1-bb94-783ff4a4a9d5,A,C,C,Jacob,Rogers,Jake,34,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+d421cd0d-43d1-41fa-9ef0-8bf1bb2442aa,A,C,C,Carson,Kelly,Carson,15,2,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+0fad748a-3ed8-4787-97db-845155c8e7ce,A,DH,DH,Jose,Cabrera,Miguel,24,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+c2689320-b989-4bbc-9afb-28e06aa31077,A,OF,CF,Riley,Greene,Riley,31,3,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+5f333b4b-e361-4705-8741-0c0f0dd1a4f7,A,P,RP,Jason,Foley,Jason,68,1,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+bc310e40-61b2-4148-80f5-918bc70c2946,A,P,RP,Tyler,Holton,Tyler,87,2,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+0d9babdc-80b5-40c2-a71d-068219b9337b,A,P,RP,Beau,Brieske,Beau,4,3,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+761063c5-7bae-48de-963e-11411b60d6f7,A,P,RP,José,Cisnero,José,67,4,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+5989b40c-e523-4138-853d-40c0f8f4ece3,A,P,RP,William,Vest,Will,19,5,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+ef5a39be-5ae6-401c-b03b-50272b051082,A,P,RP,Andrew,Vasquez,Andrew,65,6,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+c8456d31-3817-41a4-a932-eebbc42d2920,A,P,RP,Brendan,White,Brendan,52,7,575c19b7-4052-41c2-9f0a-1c5813d02f99,Tigers
+6134a0ed-a538-4f2b-afd4-84e90a4c9022,A,IF,1B,Joseph,Gallo,Joey,13,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+91f9054d-6b34-41a8-b032-591dfc026fd7,A,OF,LF,Matthew,Wallner,Matt,38,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+75a7cc9c-d91a-4435-9e77-2ca994b94478,A,DH,DH,Jordan,Luplow,Jordan,16,3,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+9fd5e31f-8188-48bf-a93b-c9d9dbd29265,A,OF,CF,Michael A.,Taylor,Michael A.,2,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+6134a0ed-a538-4f2b-afd4-84e90a4c9022,A,IF,1B,Joseph,Gallo,Joey,13,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+a16f6afb-dbff-42ad-9621-52b769d2f224,A,OF,RF,Maximilian,Kepler,Max,26,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+6134a0ed-a538-4f2b-afd4-84e90a4c9022,A,IF,1B,Joseph,Gallo,Joey,13,3,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+01776cda-8dd8-465b-8635-d314fb002c1a,A,IF,3B,Royce,Lewis,Royce,23,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+079a9121-7c29-4cec-96f7-70d61e6b7d51,A,IF,2B,Jorge,Polanco,Jorge,11,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+41fe3ba1-7f3e-4d1a-b088-291e84e82a67,A,IF,3B,James,Farmer,Kyle,12,3,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+febb6fc3-1538-4ca1-8323-5c47a23ddb2d,A,IF,1B,Donovan,Solano,Donovan,39,4,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+3259a7ad-0490-4912-bd86-d06bf3ac91e0,A,IF,SS,Carlos,Correa,Carlos,4,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+41fe3ba1-7f3e-4d1a-b088-291e84e82a67,A,IF,3B,James,Farmer,Kyle,12,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+079a9121-7c29-4cec-96f7-70d61e6b7d51,A,IF,2B,Jorge,Polanco,Jorge,11,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+fcb6b23a-cace-4dc1-bc05-e12378183fbc,A,IF,2B,Edouard,Julien,Edouard,47,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+febb6fc3-1538-4ca1-8323-5c47a23ddb2d,A,IF,1B,Donovan,Solano,Donovan,39,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+2d8de314-4980-4f1a-97b5-279261ceb111,A,P,SP,Pablo,López,Pablo,49,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+b004cc6c-f00c-4b5d-917a-ee1abf92179d,A,P,SP,Sonny,Gray,Sonny,54,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+d596dae4-f972-444d-9db0-4efd47b0fb44,A,P,SP,John,Ober,Bailey,17,3,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+e66534ab-0f5b-4c55-ade3-c06bd798a77f,A,P,SP,Kenta,Maeda,Kenta,18,4,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+77bb98d3-51ff-40c4-89cb-219ff98496f5,A,P,SP,Dallas,Keuchel,Dallas,60,5,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+0d7a27a9-f41c-4fce-930e-113aa4cf4c52,A,C,C,Christian,Vázquez,Christian,8,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+005c0339-91b9-4b00-a373-105e761382eb,A,C,C,Ryan,Jeffers,Ryan,27,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+fcb6b23a-cace-4dc1-bc05-e12378183fbc,A,IF,2B,Edouard,Julien,Edouard,47,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+3259a7ad-0490-4912-bd86-d06bf3ac91e0,A,IF,SS,Carlos,Correa,Carlos,4,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+0d43ccec-1f14-4abc-9914-54a699607f31,A,P,RP,James,Jax,Griffin,22,1,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+0473750e-f7fa-4ee6-bf65-de76b2bc2917,A,P,RP,Emilio,Pagán,Emilio,15,2,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+80488696-f2df-40de-b98f-8de75d404cbc,A,P,RP,Dylan,Floro,Dylan,58,3,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+37d66c9e-486b-4084-ad22-f359d28ff214,A,P,RP,Caleb,Thielbar,Caleb,56,4,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+cf3f4403-0d6c-424f-a820-045cdfd24d7f,A,P,RP,Josh,Winder,Josh,74,5,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+6104d7b2-b208-4bb3-b76d-a21f3c661e78,A,P,RP,Bryson,Sands,Cole,77,6,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+e27962b7-39b4-43b5-9e6f-0fe27dcf2ead,A,P,RP,Oliver,Ortega,Oliver,62,7,aa34e0ed-f342-4ec6-b774-c79b47b60e2d,Twins
+6494810c-fc26-4bec-95f5-0cd7d2b4a4e9,A,OF,LF,Mervyl,Melendez,MJ,1,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+ebe5be8d-5508-4a55-9922-b7350f0c3563,A,OF,CF,Dairon,Blanco,Dairon,44,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+5678ca88-577b-46f9-9f9f-5a118003db1a,A,OF,CF,Kyle,Isbel,Kyle,28,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+01d0dcb1-4d87-4a28-824d-9c5a17cd1d27,A,OF,RF,Drew,Waters,Drew,6,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+6494810c-fc26-4bec-95f5-0cd7d2b4a4e9,A,OF,LF,Mervyl,Melendez,MJ,1,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+ea7b7c30-a1e8-4a30-abd6-dd777ab75b35,A,OF,RF,Nelson,Velázquez,Nelson,17,3,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+ebe5be8d-5508-4a55-9922-b7350f0c3563,A,OF,CF,Dairon,Blanco,Dairon,44,4,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+3c07814a-966e-4358-82f5-f59c32af8c94,A,IF,3B,Maikel,Garcia,Maikel,11,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+00856892-9a5a-4161-b979-4335dab399cc,A,IF,3B,Matthew,Duffy,Matt,15,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+0f20f69e-28c9-4fb4-8b1e-cde154780682,A,IF,SS,Robert,Witt Jr.,Bobby,7,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+3c07814a-966e-4358-82f5-f59c32af8c94,A,IF,3B,Maikel,Garcia,Maikel,11,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+d2cf2da2-3691-41cd-91cd-d8691269bfea,A,IF,2B,Michael,Massey,Michael,19,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+bbf45136-f05b-4e3b-9f61-fcbdba246982,A,IF,2B,Samad,Taylor,Samad,0,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+4f68ff33-816e-4038-a4fb-8676758f8f0b,A,IF,1B,Matthew,Beaty,Matt,27,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+9baf07d4-b1cb-4494-8c95-600d9e8de1a9,A,C,C,Salvador,Perez,Salvador,13,3,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+9dd06397-4353-44e8-81bb-6e88a75e42b5,A,P,SP,Jordan,Lyles,Jordan,24,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+ba554801-7322-487c-a998-74fd132712e8,A,P,SP,Donald,Greinke,Zack,23,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+18f3c854-6490-4e6b-8afe-bc562c5b20b4,A,P,SP,Brady,Singer,Brady,51,3,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+9941a844-9315-4f2f-9fc2-533c07b625f2,A,P,SP,Cole,Ragans,Cole,55,4,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+3beb4f90-3b36-4fce-8c70-c8f154ce2b82,A,P,SP,Alec,Marsh,Alec,67,5,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+9baf07d4-b1cb-4494-8c95-600d9e8de1a9,A,C,C,Salvador,Perez,Salvador,13,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+2ca1b67a-71fc-419b-8be3-42af7dfa5fc9,A,C,C,Freddy,Fermin,Freddy,34,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+6494810c-fc26-4bec-95f5-0cd7d2b4a4e9,A,OF,LF,Mervyl,Melendez,MJ,1,3,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+d2cf2da2-3691-41cd-91cd-d8691269bfea,A,IF,2B,Michael,Massey,Michael,19,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+0f20f69e-28c9-4fb4-8b1e-cde154780682,A,IF,SS,Robert,Witt Jr.,Bobby,7,4,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+d4dac3af-b2e9-4f8c-ae5e-abc3cf990d90,A,P,RP,Austin,Cox,Austin,53,1,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+dfbb5a84-c020-47ee-a5fa-d8bada279486,A,P,RP,Taylor,Hearn,Taylor,54,2,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+da381d9b-e6c5-4be2-9d24-ae1cf8f42259,A,P,RP,Joseph,Davidson,Tucker,41,3,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+7eb34043-55cb-40e1-a8e2-e2d2c7f494b8,A,P,RP,Angel,Zerpa,Angel,61,4,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+ec8c009d-72ac-4271-bb71-52ad784f5c47,A,P,RP,John,McMillon,John,58,5,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+b3b31a27-6fdd-483f-9d67-23d50fd951db,A,P,RP,Taylor,Clarke,Taylor,45,6,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+2debe5bd-ebc7-4315-a36d-e6a278f5bbf8,A,P,RP,Jackson,Kowar,Jackson,37,7,833a51a9-0d84-410f-bd77-da08c3e5e26e,Royals
+0e5244cd-9226-4ee1-bb63-d022a9240ca0,A,OF,LF,Andrew,Benintendi,Andrew,23,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+f4afee13-2559-4632-b938-25cf3af92479,A,OF,RF,Gavin,Sheets,Gavin,32,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+213bd941-37dc-40a1-ab22-1d62cebb6bc1,A,OF,CF,Luis,Robert Jr.,Luis,88,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+3742039b-7c2a-4f75-be72-d4478ed83a58,A,OF,CF,Trayce,Thompson,Trayce,43,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+e78045e6-da3c-4b92-9b51-b93b403213ab,A,OF,RF,Oscar,Colás,Oscar,22,3,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+e78045e6-da3c-4b92-9b51-b93b403213ab,A,OF,RF,Oscar,Colás,Oscar,22,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+c600f34b-b32e-4369-9f9b-e4b0fef2c8c4,A,IF,3B,Yoán,Moncada,Yoán,10,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+cf579a96-a6f7-41a6-85a9-cf8f145ba3c7,A,IF,SS,Timothy,Anderson,Tim,7,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+85d6d865-97c4-427b-8f4f-eb6dad286e57,A,IF,2B,Elvis,Andrus,Elvis,1,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+85d6d865-97c4-427b-8f4f-eb6dad286e57,A,IF,2B,Elvis,Andrus,Elvis,1,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+db42ccb9-d946-40bf-97d9-b2d520d31319,A,IF,2B,Lenyn,Sosa,Lenyn,50,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+60cf6995-e2a5-47d7-834a-d25cdbdf7f3e,A,IF,1B,Andrew,Vaughn,Andrew,25,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+6072398c-e2b4-405c-932a-aa05582114dc,A,P,SP,Dylan,Cease,Dylan,84,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+998eaf5a-e1b2-4baa-af3c-2fb4e8ded567,A,P,SP,Michael,Kopech,Michael,34,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+dd0eb9ae-c640-4291-89e0-38f91ab8feae,A,P,SP,Michael,Clevinger,Mike,52,3,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+44bdf132-b09d-4f16-95cf-43ff690aff61,A,P,SP,Dany,Toussaint,Touki,47,4,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+f7588c07-8ad8-4791-a223-ad5f7243aa0f,A,P,SP,Jesse,Scholtens,Jesse,62,5,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+643547ae-4a60-4135-b290-88a1b2160cbb,A,C,C,Yasmani,Grandal,Yasmani,24,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+725c41a3-311d-43ee-a2f9-586fd4afa383,A,C,C,Carlos,Pérez,Carlos,36,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+9061eb1e-fa57-46e6-8ea0-a853eae89310,A,DH,DH,Eloy,Jiménez,Eloy,74,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+60cf6995-e2a5-47d7-834a-d25cdbdf7f3e,A,IF,1B,Andrew,Vaughn,Andrew,25,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+643547ae-4a60-4135-b290-88a1b2160cbb,A,C,C,Yasmani,Grandal,Yasmani,24,3,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+982edc12-b347-4998-80e4-5f088f2a3378,A,P,RP,Aaron,Bummer,Aaron,39,1,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+ffe440b0-da23-41c3-af18-0bfe816bdc55,A,P,RP,James,Lambert,Jimmy,58,2,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+45273e61-1cac-4596-8658-31c06d773435,A,P,RP,Bryan,Shaw,Bryan,41,3,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+a5b129bf-8b14-4753-b95b-cca0e29a6a25,A,P,RP,Tanner,Banks,Tanner,57,4,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+a11bebff-1db9-4345-bd77-87bafada9c61,A,P,RP,Lane,Ramsey,Lane,68,5,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+6adb7010-9a82-46e4-b5dd-83218c982350,A,P,RP,Edgar,Navarro,Edgar,66,6,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+eaea23a2-1852-4b8e-b95c-656c2ccc836b,A,P,RP,Samuel,Peralta,Sammy,67,7,47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8,White Sox
+a0cad108-d00e-422a-bd43-36601fbe0db4,A,OF,LF,Steven,Kwan,Steven,38,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+3dbbc8ce-7069-4da4-be4f-6fbee631d8a7,A,OF,RF,William,Brennan,Will,17,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+7c6cd7f8-4089-4765-b796-1f94fd48c3a7,A,OF,CF,Myles,Straw,Myles,7,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+3dbbc8ce-7069-4da4-be4f-6fbee631d8a7,A,OF,RF,William,Brennan,Will,17,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+bec82782-dc29-487b-8aea-96dea289375b,A,OF,RF,Ramón,Laureano,Ramón,10,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+42d18dbb-dfad-4921-ac31-d96ec8181d9f,A,OF,RF,Oscar,Gonzalez,Oscar,39,3,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+73c62d3d-8dbc-465f-8dc6-0d0c2f40e4b2,A,IF,1B,Gabriel,Arias,Gabriel,13,4,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+17e633e5-e7a5-445c-8206-4770254ea2fd,A,IF,3B,José,Ramírez,José,11,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+87056925-aecb-4af8-9fa5-f08c96bae9f8,A,IF,3B,Tyler,Freeman,Tyler,2,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+73c62d3d-8dbc-465f-8dc6-0d0c2f40e4b2,A,IF,1B,Gabriel,Arias,Gabriel,13,3,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+73c62d3d-8dbc-465f-8dc6-0d0c2f40e4b2,A,IF,1B,Gabriel,Arias,Gabriel,13,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+c9c63926-40bb-4305-af07-4a486a9d5474,A,IF,SS,Brayan,Rocchio,Brayan,6,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+0d84b0e6-869f-4b15-8eea-0d8444c49906,A,IF,2B,Andrés,Giménez,Andrés,0,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+73c62d3d-8dbc-465f-8dc6-0d0c2f40e4b2,A,IF,1B,Gabriel,Arias,Gabriel,13,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+46b5ebd8-b678-4748-ae90-a879afc3d270,A,OF,RF,Kole,Calhoun,Kole,56,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+0d19def3-bd18-473c-b6f8-5b92b017f27f,A,P,SP,Noah,Syndergaard,Noah,34,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+337921aa-4410-42f6-9900-3f81ad7fb00c,A,P,SP,Tanner,Bibee,Tanner,61,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+59085c2a-d957-4bb4-8d7e-295419b7254d,A,P,SP,Gavin,Williams,Gavin,63,3,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+64e072d2-dbcb-499d-8e08-ff2046272ffe,A,P,SP,Logan,Allen,Logan,41,4,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+2cf9c618-4a88-412c-9ab4-3e70671e7b1f,A,P,RP,Xzavion,Curry,Xzavion,44,5,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+dfe4ba88-3fee-4401-bf88-13a59ccf8b07,A,C,C,Noah,Naylor,Bo,23,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+998f72fc-a811-4f19-b423-4e55c25791d6,A,C,C,Eric,Haase,Eric,9,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+42d18dbb-dfad-4921-ac31-d96ec8181d9f,A,OF,RF,Oscar,Gonzalez,Oscar,39,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+197d4140-84fd-43d4-b9ee-4506549c3be9,A,P,RP,Trevor,Stephan,Trevor,37,1,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+19531254-3669-4d66-a1ac-c1264e6cb3bb,A,P,RP,Sam D.,Hentges,Sam,31,2,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+d7ef5d66-3914-4a6a-bf41-1b77369a58a6,A,P,RP,Elijah,Morgan,Eli,49,3,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+47f3a8f2-b73d-4560-8f51-bfe08515a9cd,A,P,RP,Enyel,De Los Santos,Enyel,62,4,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+1458283f-6a58-4f58-9bbb-7160086b9bc8,A,P,RP,Nick,Sandlin,Nick,52,5,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+a0fac67f-f601-4745-af63-92009f082930,A,P,RP,James,Karinchak,James,99,6,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+627d5421-39e7-4b24-b231-90e5e8b9a5ba,A,P,RP,Tim,Herrin,Tim,29,7,80715d0d-0d2a-450f-a970-1b9a3b18c7e7,Guardians
+22bcbdc8-1a8c-4dea-8794-b17c88c7b8b9,A,IF,1B,Spencer,Steer,Spencer,7,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+6b29150b-67b6-410f-b1bf-43618616c230,A,OF,LF,Nicholas,Martini,Nick,,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+0a7c5ebf-489c-4a98-b468-d443f21bf1e0,A,OF,RF,William,Benson,Will,30,3,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+5929fbff-e36a-4a4c-9eb4-c88ffe38e32e,A,OF,CF,Terry,Friedl,TJ,29,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+4695cab6-a42f-4ea2-b8dc-f2d2de70206c,A,OF,CF,Michael,Siani,Michael,38,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+18c9aa41-1655-49a3-ab14-7c7a840630f9,A,OF,CF,Mark,Hopkins,TJ,26,3,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+0a7c5ebf-489c-4a98-b468-d443f21bf1e0,A,OF,RF,William,Benson,Will,30,4,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+0a7c5ebf-489c-4a98-b468-d443f21bf1e0,A,OF,RF,William,Benson,Will,30,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+457e0d34-698f-4ee3-ba0e-4bf703200d8f,A,IF,SS,Elly,De La Cruz,Elly,44,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+22bcbdc8-1a8c-4dea-8794-b17c88c7b8b9,A,IF,1B,Spencer,Steer,Spencer,7,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+797af52b-78ef-4989-ba56-bf9acfa8be63,A,IF,SS,Noelvi,Marte,Noelvi,16,3,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+429eaa60-463f-4c48-ae31-4e3df86674d8,A,IF,2B,Matthew,McLain,Matt,9,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+429eaa60-463f-4c48-ae31-4e3df86674d8,A,IF,2B,Matthew,McLain,Matt,9,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+f6a52aa9-6607-445b-a6cb-34a73b1859f9,A,IF,1B,Joseph,Votto,Joey,19,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+cfaae0a0-760c-484e-af0e-f904beccc514,A,IF,3B,Christian,Encarnacion-Strand,Christian,33,3,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+d9913442-0879-466c-926a-843188b66f89,A,C,C,Tyler,Stephenson,Tyler,37,4,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+8f0c3e7b-ea0c-471c-870a-c9f7bdd81f47,A,P,SP,Douglas,Ashcraft,Graham,51,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+7abdea2a-e3d9-4458-a044-0b6d989065cd,A,P,SP,Christian,Greene,Hunter,21,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+45b2906b-e65a-450e-aefd-035284937324,A,P,SP,Brandon,Williamson,Brandon,55,3,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+f7000da1-4701-412d-b283-92b0098530a0,A,P,SP,Andrew,Abbott,Andrew,41,4,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+999971ab-4ea4-49a9-9a9d-8a6fb06d55e1,A,P,SP,Lyon,Richardson,Lyon,72,5,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+d9913442-0879-466c-926a-843188b66f89,A,C,C,Tyler,Stephenson,Tyler,37,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+d7bb376c-9f2b-449b-b1eb-c6be13aa4886,A,C,C,Luke,Maile,Luke,22,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+cfaae0a0-760c-484e-af0e-f904beccc514,A,IF,3B,Christian,Encarnacion-Strand,Christian,33,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+f6a52aa9-6607-445b-a6cb-34a73b1859f9,A,IF,1B,Joseph,Votto,Joey,19,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+22bcbdc8-1a8c-4dea-8794-b17c88c7b8b9,A,IF,1B,Spencer,Steer,Spencer,7,3,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+2b80ad24-b20f-4845-afea-70ca01036efc,A,P,RP,Lucas,Sims,Lucas,39,1,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+926bfea7-9993-4019-b3e1-58e7d03f9b4b,A,P,RP,Ian,Gibaut,Ian,79,2,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+4b3f17a9-80c5-4a06-87b6-c515f3c34c42,A,P,RP,Derek,Law,Derek,47,3,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+646fa095-3f32-41f3-be45-12f5e2d087e4,A,P,RP,Samuel,Moll,Sam,50,4,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+5f726846-50ef-4ba9-ba10-48c00e6644ff,A,P,RP,George,Farmer,Buck,46,5,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+186d83c6-e87a-4bf3-a930-31d1ec4cea90,A,P,RP,Alexander,Young,Alex,48,6,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+14a96f5a-b925-497b-abd1-bac8ac355f48,A,P,RP,Fernando,Cruz,Fernando,63,7,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+096955a1-b563-4611-860b-b8470d55dea4,A,P,SP,Brett,Kennedy,Brett,66,8,c874a065-c115-4e7d-b0f0-235584fb0e6f,Reds
+65fc46ca-350d-4eaf-bc40-8851c3378bc6,A,OF,LF,Tyler,O'Neill,Tyler,27,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+991ace91-d77f-4fad-b7a8-e94090299949,A,OF,LF,Alec,Burleson,Alec,41,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+7941825b-0909-40e8-b680-8c6493f24c89,A,OF,RF,Jordan,Walker,Jordan,18,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+aec77ff1-c238-449c-9af6-ed76ff9dd702,A,IF,3B,Nolan,Arenado,Nolan,28,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+24887442-7de5-4d3d-ab41-3a95e68828ec,A,IF,2B,Richard,Palacios,Richie,67,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+3aea48c2-9d7c-46bc-b48e-627cbfa2a954,A,IF,SS,Thomas,Edman,Tommy,19,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+6162380d-5201-4e3c-a1a3-0d3db5afc356,A,IF,SS,Masyn,Winn,Masyn,0,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+3a2d8084-65b5-4579-9eb6-adfcffa0fcd2,A,IF,SS,José,Fermín,José,35,3,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+24887442-7de5-4d3d-ab41-3a95e68828ec,A,IF,2B,Richard,Palacios,Richie,67,4,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+d585374f-09b3-4a95-97c8-756650458f0d,A,IF,2B,Taylor,Motter,Taylor,55,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+7c9c97fd-7a89-49e1-830b-0274a5c2209a,A,IF,1B,Paul,Goldschmidt,Paul,46,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+fd0239d3-7703-4dfa-a54c-9c0c7a1baf2f,A,IF,1B,Luken,Baker,Luken,26,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+991ace91-d77f-4fad-b7a8-e94090299949,A,OF,LF,Alec,Burleson,Alec,41,3,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+262b24b7-ce98-4885-8715-2732a61db10d,A,P,SP,Miles,Mikolas,Miles,39,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+c399c961-1b45-430c-858e-f0a33ae0af85,A,P,SP,Adam,Wainwright,Adam,50,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+fd954c71-a360-41d8-846e-7faf831b6256,A,P,SP,Dakota,Hudson,Dakota,43,3,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+c8f9ffa5-d070-4c45-b415-c6331e0f3f7a,A,P,RP,Zachary,Thompson,Zack,57,4,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+0f4978b2-11a8-42c4-af98-e7c8a9b42365,A,P,SP,Drew,Rom,Drew,38,5,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+9d93f121-f032-407d-bb30-ad3593641db9,A,C,C,Willson,Contreras,Willson,40,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+626336dd-9bdc-43da-9bcc-bcd412530bd3,A,C,C,Andrew,Knizner,Andrew,7,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+9d93f121-f032-407d-bb30-ad3593641db9,A,C,C,Willson,Contreras,Willson,40,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+7c9c97fd-7a89-49e1-830b-0274a5c2209a,A,IF,1B,Paul,Goldschmidt,Paul,46,3,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+aec77ff1-c238-449c-9af6-ed76ff9dd702,A,IF,3B,Nolan,Arenado,Nolan,28,4,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+6b4748c0-1b93-4a58-9896-80a04af32c5b,A,P,RP,Neil,Pallante,Andre,53,1,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+ecee463a-f7fb-43ad-9a71-d20c3e4c5d38,A,P,RP,Joseph,Romero,JoJo,59,2,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+94006ace-427f-4b5a-bd5b-367118fd4eb2,A,P,RP,Drew,VerHagen,Drew,34,3,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+9263d36c-cca2-4359-854e-b4139a494008,A,P,RP,John,King,John,47,4,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+c6ed1126-55d9-496c-a23c-523d0029b6d7,A,P,RP,Andrew,Suárez,Andrew,31,5,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+051b28a4-a189-440e-bef0-3d922819e223,A,P,RP,Casey,Lawrence,Casey,72,6,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+8c51ad39-f1f6-4e63-9e0d-a8d99d195450,A,P,RP,Jacob,Barnes,Jacob,61,7,44671792-dc02-4fdd-a5ad-f5f17edaa9d7,Cardinals
+bf611376-2b1d-4d5f-9805-57cbfb852063,A,OF,LF,Bryan,Reynolds,Bryan,10,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+335fd8c9-1225-4dd9-8069-75fc53c96364,A,OF,RF,Connor,Joe,Connor,2,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+1e792b33-fdae-48fd-a2c4-3b9c2e33f178,A,OF,CF,Jack,Suwinski,Jack,65,3,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+10f0cbb2-0ab7-4ecb-9949-b7de0bf02cbd,A,IF,SS,Vincent,Capra,Vinny,71,4,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+45867a80-a8d0-4c56-96fe-41a24d7c176b,A,OF,CF,Ji Hwan,Bae,Ji Hwan,3,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+1e792b33-fdae-48fd-a2c4-3b9c2e33f178,A,OF,CF,Jack,Suwinski,Jack,65,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+88fe9848-7bce-4047-a62f-27f2775a0f5e,A,OF,CF,Joshua,Palacios,Joshua,54,3,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+335fd8c9-1225-4dd9-8069-75fc53c96364,A,OF,RF,Connor,Joe,Connor,2,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+10f0cbb2-0ab7-4ecb-9949-b7de0bf02cbd,A,IF,SS,Vincent,Capra,Vinny,71,3,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+ec6f52a3-f3e9-40f0-acfe-1dfba879d18a,A,IF,3B,Ke'Bryan,Hayes,Ke'Bryan,13,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+10f0cbb2-0ab7-4ecb-9949-b7de0bf02cbd,A,IF,SS,Vincent,Capra,Vinny,71,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+df1f3dd7-6dac-46b4-9ed4-0a3b7e371fb3,A,IF,SS,Alexander,Williams,Alika,75,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+5d763ac5-137a-4461-bba5-a2e5588e87f2,A,IF,2B,Liover,Peguero,Liover,60,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+5d763ac5-137a-4461-bba5-a2e5588e87f2,A,IF,2B,Liover,Peguero,Liover,60,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+7898f00d-28a6-445e-9436-e532da6f2c06,A,IF,1B,Alfonso,Rivas,Alfonso,6,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+ffb19157-28c7-41ee-bdec-9b62d22337e2,A,P,SP,Mitch,Keller,Mitch,23,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+a0c056de-bbc2-4370-a0d7-f503ddccc847,A,P,SP,Johan,Oviedo,Johan,24,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+7815f286-f332-429b-9378-fa6234af5036,A,P,SP,Bailey,Falter,Bailey,44,3,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+24fd467f-0330-4e16-aeee-7d99de324c97,A,P,SP,Osvaldo,Bido,Osvaldo,70,4,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+a87a4eb5-c735-4431-ac59-c2cb85e2c82b,A,P,SP,Luis L.,Ortiz,Luis L.,48,5,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+f7a9c3be-c466-4ada-9146-f1c5137b5436,A,C,C,Endy,Rodríguez,Endy,25,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+bfa8b398-06bc-445e-9e05-389991cb43e5,A,C,C,Jason,Delay,Jason,55,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+53a80099-966e-451c-a1e2-dccbb16f8dd8,A,DH,DH,Andrew,McCutchen,Andrew,22,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+bf611376-2b1d-4d5f-9805-57cbfb852063,A,OF,LF,Bryan,Reynolds,Bryan,10,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+f9f85708-f049-4b86-9f93-cf3c7f854b22,A,P,RP,Colin,Holderman,Colin,35,1,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+2945b9fb-77ed-4e60-a63d-0c4eb2feb458,A,P,RP,Ryan,Borucki,Ryan,43,2,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+38fe7a7d-c990-4440-ad2a-6b7c60a98ae6,A,P,SP,Thomas,Hatch,Thomas,38,3,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+eaa39de5-d59b-4e58-9530-baecb2846419,A,P,SP,Colin,Selby,Colin,52,4,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+6b2fa002-16eb-4c76-8db3-405f67a84c5b,A,P,RP,Jose,Hernandez,Jose,61,5,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+bc6343f5-aaf5-4d41-8179-478789f264ed,A,P,RP,Yohan,Ramirez,Yohan,46,6,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+706b7c5f-edb5-4a98-8d88-f28a8b9124f1,A,P,RP,Andre,Jackson,Andre,41,7,481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd,Pirates
+42cb5171-ffa3-4600-9c41-dbc3805206ea,A,OF,LF,Christian,Yelich,Christian,22,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+483b2453-dac3-493b-8d1c-eab6dec40787,A,OF,LF,Mark,Canha,Mark,21,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+13c49639-982a-44e6-8397-57a32155be2a,A,OF,CF,Joseph,Wiemer,Joey,28,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+aa24e775-28b9-4e84-9157-e69d8517cb6c,A,OF,RF,Salvatore,Frelick,Sal,10,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+aa24e775-28b9-4e84-9157-e69d8517cb6c,A,OF,RF,Salvatore,Frelick,Sal,10,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+58d665be-7e9e-4ff7-8882-52a770469967,A,OF,RF,Tyrone,Taylor,Tyrone,15,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+13c49639-982a-44e6-8397-57a32155be2a,A,OF,CF,Joseph,Wiemer,Joey,28,3,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+5c6fd5bc-0c4c-47fa-b4e4-ed343b04e993,A,IF,3B,Brian,Anderson,Brian,9,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+93dd9c6d-6a90-470e-a99e-f8233ac60ddc,A,IF,3B,Andruw,Monasterio,Andruw,14,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+81af51ef-1387-495a-bef2-57f219415370,A,IF,SS,Willy,Adames,Willy,27,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+45d9ee07-705d-4d91-8131-264ab0cc8af4,A,IF,2B,Brice,Turang,Brice,2,3,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+45d9ee07-705d-4d91-8131-264ab0cc8af4,A,IF,2B,Brice,Turang,Brice,2,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+3959d7a0-04fc-4772-b9d2-65f97ec4ccb6,A,IF,1B,Ryan,Tellez,Rowdy,11,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+86167542-e9cf-4d20-8022-7ed53dc09d0a,A,IF,1B,Carlos,Santana,Carlos,41,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+93dd9c6d-6a90-470e-a99e-f8233ac60ddc,A,IF,3B,Andruw,Monasterio,Andruw,14,3,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+3ce2509f-eec9-4d02-aa76-0dce03029347,A,P,SP,Corbin,Burnes,Corbin,39,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+e28344cd-b08e-43ec-adcb-f6693203cf82,A,P,SP,Freddy,Peralta,Freddy,51,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+1ae40975-8948-422d-b0e7-81092ee9f55a,A,P,SP,Brandon,Woodruff,Brandon,53,3,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+d8326a8e-0f8a-49dc-b3a9-610ddfdc53b7,A,P,SP,Wade,Miley,Wade,20,4,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+8156bec7-9689-46d6-9b0f-eddf7240d9a3,A,P,SP,Adrian,Houser,Adrian,37,5,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+1015a557-8e55-4c12-b63c-3306e25ae6e6,A,C,C,William,Contreras,William,24,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+64c76a31-1a6a-4cf3-a871-bd83c41fa6ef,A,C,C,Victor,Caratini,Victor,7,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+483b2453-dac3-493b-8d1c-eab6dec40787,A,OF,LF,Mark,Canha,Mark,21,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+42cb5171-ffa3-4600-9c41-dbc3805206ea,A,OF,LF,Christian,Yelich,Christian,22,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+1015a557-8e55-4c12-b63c-3306e25ae6e6,A,C,C,William,Contreras,William,24,3,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+889d4e15-173d-43af-90cc-58da6c8bc759,A,P,RP,Joel,Payamps,Joel,31,1,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+c7cc1802-2a2a-4cce-b028-fc69a82d08ae,A,P,RP,Andrew,Chafin,Andrew,32,2,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+e83160b9-1507-4d04-aad5-086a5196af0a,A,P,RP,Hoby,Milner,Hoby,55,3,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+1f9bb067-a493-4954-8ad8-dfa9f6349cf8,A,P,RP,Elvis,Peguero,Elvis,59,4,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+424fdb4f-bc6c-4f13-85af-e2482a92e059,A,P,RP,Abner,Uribe,Abner,45,5,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+afebcbd0-fe00-4d21-99c5-6cee7e5eea02,A,P,RP,Bryse,Wilson,Bryse,46,6,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+39c7f4b3-4a7e-429f-bb09-4a22b5614c3d,A,P,RP,Trevor,Megill,Trevor,29,7,dcfd5266-00ce-442c-bc09-264cd20cf455,Brewers
+d8968ebd-8227-44b6-b442-77d088c9f98a,A,OF,LF,Ian,Happ,Ian,8,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+70573042-2ab4-4d82-b86e-9325f8d7686d,A,OF,CF,Christopher,Morel,Christopher,5,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+24a794bb-adde-4f27-abb9-a762a6a4da2f,A,OF,CF,Michael,Tauchman,Mike,40,3,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+34fcb984-f20f-4c4f-af38-61387ae2cbc9,A,IF,3B,Patrick,Wisdom,Patrick,16,4,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+b834a89f-4df1-4fb9-9a8e-2e52cd60db0d,A,IF,3B,Miles,Mastrobuoni,Miles,20,5,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+bbe79e92-c56f-4e17-b5e4-6427c9fb7dce,A,OF,CF,Cody,Bellinger,Cody,24,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+24a794bb-adde-4f27-abb9-a762a6a4da2f,A,OF,CF,Michael,Tauchman,Mike,40,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+70573042-2ab4-4d82-b86e-9325f8d7686d,A,OF,CF,Christopher,Morel,Christopher,5,3,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+aa691806-f8a0-4dc7-b833-94e59dc22a34,A,OF,RF,Seiya,Suzuki,Seiya,27,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+b834a89f-4df1-4fb9-9a8e-2e52cd60db0d,A,IF,3B,Miles,Mastrobuoni,Miles,20,3,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+70573042-2ab4-4d82-b86e-9325f8d7686d,A,OF,CF,Christopher,Morel,Christopher,5,4,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+e295bee0-2f17-42ec-8950-cda202aa9c72,A,IF,1B,Jeimer,Candelario,Jeimer,9,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+04bbd2cb-cc77-41da-8550-e332c2da0cf1,A,IF,3B,Nicklaus,Madrigal,Nick,1,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+34fcb984-f20f-4c4f-af38-61387ae2cbc9,A,IF,3B,Patrick,Wisdom,Patrick,16,3,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+b834a89f-4df1-4fb9-9a8e-2e52cd60db0d,A,IF,3B,Miles,Mastrobuoni,Miles,20,4,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+70573042-2ab4-4d82-b86e-9325f8d7686d,A,OF,CF,Christopher,Morel,Christopher,5,5,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+5773d9a2-dfc1-458a-acac-67528d6618b3,A,IF,SS,Dansby,Swanson,Dansby,7,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+6ea2efc3-345a-4e30-8b95-744a60a3e7a5,A,IF,2B,Nicholas,Hoerner,Nico,2,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+6ea2efc3-345a-4e30-8b95-744a60a3e7a5,A,IF,2B,Nicholas,Hoerner,Nico,2,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+bbe79e92-c56f-4e17-b5e4-6427c9fb7dce,A,OF,CF,Cody,Bellinger,Cody,24,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+70f7f1a5-e82d-45c9-8fb1-7ba495797690,A,P,SP,Justin,Steele,Justin,35,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+0b4c4345-7609-4ab1-9aaa-41d56d7f1fda,A,P,SP,Jameson,Taillon,Jameson,50,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+dec510da-0104-48f0-892f-37a9ab9d02ff,A,P,SP,Kyle,Hendricks,Kyle,28,3,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+1c6ebbc7-2df6-432f-960d-0e7162f3dd6d,A,P,SP,Todd,Smyly,Drew,11,4,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+564bb787-e788-4acf-9dab-1da0e14578e0,A,P,RP,Javier,Assad,Javier,72,5,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+d8f12737-4e3e-41ec-a306-fe49cf0a18e2,A,C,C,Yan,Gomes,Yan,15,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+b8dbec1d-4f7b-46d0-942a-61df9d8341d0,A,C,C,Miguel,Amaya,Miguel,6,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+70573042-2ab4-4d82-b86e-9325f8d7686d,A,OF,CF,Christopher,Morel,Christopher,5,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+b8dbec1d-4f7b-46d0-942a-61df9d8341d0,A,C,C,Miguel,Amaya,Miguel,6,3,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+3f24039c-5b79-4724-9db7-31609917c462,A,P,RP,Mark,Leiter Jr.,Mark,38,1,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+2ddc3b5f-b9d0-4d0b-a7cb-0bfe7ec9c20e,A,P,RP,Julian,Merryweather,Julian,66,2,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+ec504c95-8a64-46ad-91ae-850c6e7350db,A,P,RP,Michael,Fulmer,Michael,32,3,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+e338c359-f475-41d6-82e6-7d1db71289cb,A,P,RP,Jose,Cuas,Jose,74,4,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+359d6c91-4911-4870-9b4a-f4ff9172b82e,A,P,RP,Daniel,Palencia,Daniel,48,5,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+70da19cd-4226-43da-a667-e604ee2dc0b5,A,P,RP,Michael,Rucker,Michael,59,6,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+07e64bda-3dd4-4634-84ff-1a2693ea6c76,A,P,RP,Hayden,Wesneski,Hayden,19,7,55714da8-fcaf-4574-8443-59bfb511a524,Cubs
+75ba17fd-160d-4695-86af-7c614cb8f264,A,OF,LF,Jurickson,Profar,Jurickson,29,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+c2bd8ccd-0f7d-48c4-920f-3612b83ffdcf,A,OF,RF,Nolan,Jones,Nolan,22,2,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+3f856148-cde1-4a80-bfbc-0516f93ad1b8,A,IF,2B,Harold,Castro,Harold,30,3,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+28594769-7a22-449b-a543-ea0776b01eba,A,OF,CF,Brenton,Doyle,Brenton,9,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+3f856148-cde1-4a80-bfbc-0516f93ad1b8,A,IF,2B,Harold,Castro,Harold,30,2,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+c2bd8ccd-0f7d-48c4-920f-3612b83ffdcf,A,OF,RF,Nolan,Jones,Nolan,22,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+4347e8b8-971e-4ea4-8339-62507df77ca5,A,IF,1B,Michael,Toglia,Michael,4,2,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+021a4720-4f82-4446-9635-f8503c72d1fc,A,IF,3B,Ryan,McMahon,Ryan,24,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+c2bd8ccd-0f7d-48c4-920f-3612b83ffdcf,A,OF,RF,Nolan,Jones,Nolan,22,3,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+9f9b67ad-6d80-408a-bf23-4ff1dbd8e999,A,IF,SS,Ezequiel,Tovar,Ezequiel,14,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+a6945841-2c60-4a07-82ba-8675d17ac921,A,IF,2B,Alan,Trejo,Alan,13,3,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+52cc8d0b-6e9d-4324-a385-758ca6433e66,A,IF,2B,Brendan,Rodgers,Brendan,7,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+021a4720-4f82-4446-9635-f8503c72d1fc,A,IF,3B,Ryan,McMahon,Ryan,24,4,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+4347e8b8-971e-4ea4-8339-62507df77ca5,A,IF,1B,Michael,Toglia,Michael,4,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+2e195870-15e8-41d9-9aaf-c7695fae8b87,A,IF,1B,Elehuris,Montero,Elehuris,44,2,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+e2081019-8ef0-471d-b6d6-1333a8a45897,A,P,SP,Kyle,Freeland,Kyle,21,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+f27bbbb3-40ab-4ade-b6ec-355b9499da40,A,P,SP,Austin,Gomber,Austin,26,2,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+fae16ac1-d99d-4626-83c2-0a8e89545a2b,A,P,RP,Christoper,Flexen,Chris,32,3,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+5fac7e47-21bc-414e-a696-a1bc961333b0,A,P,SP,Peter,Lambert,Peter,20,4,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+ca9e5330-a6cc-4b9e-a40e-6c8b672edb81,A,P,SP,Tyson,Blach,Ty,50,5,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+21595f39-abdb-4acc-80a7-56da680691e9,A,P,SP,Karl,Kauffmann,Karl,51,6,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+564e9e9d-945e-41a3-812b-e0ed5bd76725,A,C,C,Elias,Díaz,Elias,35,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+bc753dad-b698-4cfc-8b3b-5aaa551fd931,A,C,C,Robert,Wynns,Austin,16,2,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+6d5ea773-5f3d-470e-b572-b59fc278f892,A,DH,DH,Charles,Blackmon,Charlie,19,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+2e195870-15e8-41d9-9aaf-c7695fae8b87,A,IF,1B,Elehuris,Montero,Elehuris,44,3,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+75ba17fd-160d-4695-86af-7c614cb8f264,A,OF,LF,Jurickson,Profar,Jurickson,29,4,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+e26ad1fe-6f72-4747-be95-5dce2271eaa7,A,P,RP,Brent,Suter,Brent,39,1,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+b3af5f28-6809-49b7-9ea2-693b19cf13d1,A,P,RP,Jacob,Bird,Jake,59,2,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+10677fbd-6f12-4f65-bd28-34ece6d885e2,A,P,RP,Daniel,Bard,Daniel,52,3,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+726fbad1-82d5-480f-9c9c-0bc7c73fd1e0,A,P,RP,Matthew,Koch,Matt,54,4,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+05e0440a-dc29-4ad3-8e2c-fbfd884d0979,A,P,RP,Justin,Bruihl,Justin,55,5,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+617d9e4b-eedb-484b-a47c-84758e8509b4,A,P,RP,Thomas,Doyle,Tommy,57,6,29dd9a87-5bcc-4774-80c3-7f50d985068b,Rockies
+2aadd7c6-eaea-4975-934e-e504fe9903a2,A,OF,LF,Juan,Soto,Juan,22,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+a3152805-3787-44a0-a8a9-b3ef604ac40d,A,IF,1B,Jacob,Cronenworth,Jake,9,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+f2a035af-20c4-4bb0-8a6f-7086ed2531a8,A,OF,LF,Benjamin,Gamel,Ben,16,3,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+314288f6-29ce-438c-a7a1-5f86402cc406,A,OF,CF,Trenton,Grisham,Trent,1,4,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+314288f6-29ce-438c-a7a1-5f86402cc406,A,OF,CF,Trenton,Grisham,Trent,1,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+bd22364f-1ff4-4ddc-8315-0a4c95cff960,A,OF,RF,Fernando,Tatis Jr.,Fernando,23,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+bd22364f-1ff4-4ddc-8315-0a4c95cff960,A,OF,RF,Fernando,Tatis Jr.,Fernando,23,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+25a9b399-77d4-49a2-bd94-85821abdaefd,A,OF,RF,José,Azocar,José,28,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+a3152805-3787-44a0-a8a9-b3ef604ac40d,A,IF,1B,Jacob,Cronenworth,Jake,9,3,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+3bb4a60b-953e-4bef-8b25-c6f07d54eddf,A,IF,3B,Manuel,Machado,Manny,13,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+d5c9ae13-0a9e-42cd-8d74-6b7797cef34c,A,IF,2B,Ha-Seong,Kim,Ha-Seong,7,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+272abdba-ae99-4137-a6dd-5615f234adfc,A,IF,SS,Xander,Bogaerts,Xander,2,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+d5c9ae13-0a9e-42cd-8d74-6b7797cef34c,A,IF,2B,Ha-Seong,Kim,Ha-Seong,7,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+a3152805-3787-44a0-a8a9-b3ef604ac40d,A,IF,1B,Jacob,Cronenworth,Jake,9,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+3517d944-edaf-44e0-bfac-34f4ef766aff,A,IF,1B,Garrett,Cooper,Garrett,24,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+a8cd51db-4a15-454a-836d-79fe158f7b71,A,DH,DH,Matthew,Carpenter,Matt,14,3,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+cc672f14-6c84-4dde-8beb-90664d467843,A,P,SP,Yu,Darvish,Yu,11,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+1a191c8a-25d8-4c89-8f54-5817cc666a64,A,P,SP,Blake,Snell,Blake,4,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+db6ced3d-7838-4a7c-92a5-50d0b63dac3b,A,P,SP,Michael,Wacha,Michael,52,3,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+0600588b-39b2-49eb-9e77-208f8fdaca9b,A,P,SP,Jacob,Lugo,Seth,67,4,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+d9936d13-479d-43e0-a845-c74e17046622,A,P,SP,Richard,Hill,Rich,41,5,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+11df9b71-0e8a-4531-b8ef-12cfcfb9d8ff,A,C,C,Luis,Campusano,Luis,12,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+b9ee6cb0-733c-4f27-88bf-847c42a6236d,A,C,C,Gary,Sánchez,Gary,99,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+3517d944-edaf-44e0-bfac-34f4ef766aff,A,IF,1B,Garrett,Cooper,Garrett,24,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+a8cd51db-4a15-454a-836d-79fe158f7b71,A,DH,DH,Matthew,Carpenter,Matt,14,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+1c172560-1d12-4223-ae7d-a31122a531e1,A,P,RP,Robert,Suarez,Robert,75,1,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+a8a00e47-833d-41d0-9265-641b9243b21d,A,P,RP,Steven,Wilson,Steven,36,2,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+b7b19f8d-e715-4b66-ab11-428544faf023,A,P,RP,Scott,Barlow,Scott,58,3,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+3fb2dc02-5694-44a6-9f00-4a064e23ecb2,A,P,RP,Thomas,Cosgrove,Tom,59,4,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+3e7022c3-b58b-4a6c-9606-963d8f3f50e3,A,P,RP,Luis,García,Luis,66,5,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+36818090-03bc-44dc-b0f7-4fb0f4182bb1,A,P,RP,Nicholas,Martinez,Nick,21,6,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+0d4b4a6e-7b39-41b5-8f8e-843b7dea0857,A,P,RP,Pedro,Avila,Pedro,60,7,d52d5339-cbdd-43f3-9dfa-a42fd588b9a3,Padres
+11d8880d-4581-4531-b6f9-1170eaaff32d,A,OF,LF,Senger,Peralta,David,6,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+a6d72a5b-db58-48c4-9bda-7b8eb22ab5d0,A,IF,SS,Christopher,Taylor,Chris,3,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+8e42fd09-b9d0-4566-b960-e107f580de46,A,OF,RF,Jason,Heyward,Jason,23,3,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+2206f900-521e-426b-b092-0f22d6c32a4c,A,OF,CF,James,Outman,James,33,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+8e42fd09-b9d0-4566-b960-e107f580de46,A,OF,RF,Jason,Heyward,Jason,23,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+a6d72a5b-db58-48c4-9bda-7b8eb22ab5d0,A,IF,SS,Christopher,Taylor,Chris,3,3,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+084d2514-9ffb-414e-ae16-3bc690aaad51,A,OF,RF,Markus,Betts,Mookie,50,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+11d8880d-4581-4531-b6f9-1170eaaff32d,A,OF,LF,Senger,Peralta,David,6,3,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+d692c6b5-5895-4b72-8a46-d9b9594defb6,A,IF,3B,Maxwell,Muncy,Max,13,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+9819d25c-beaf-48f5-909d-94bbbb6de37f,A,IF,3B,Michael,Busch,Michael,83,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+e19efe62-ace7-4202-97bf-d457a71c50d5,A,IF,SS,German,Rosario,Amed,31,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+9fcd5310-c80e-428e-bd9f-048ba1043b4e,A,IF,SS,Miguel,Rojas,Miguel,11,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+084d2514-9ffb-414e-ae16-3bc690aaad51,A,OF,RF,Markus,Betts,Mookie,50,4,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+a6d72a5b-db58-48c4-9bda-7b8eb22ab5d0,A,IF,SS,Christopher,Taylor,Chris,3,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+1dd03898-1e07-459f-98d4-99209a91a546,MIN,IF,2B,Miguel,Vargas,Miguel,17,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+084d2514-9ffb-414e-ae16-3bc690aaad51,A,OF,RF,Markus,Betts,Mookie,50,3,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+ea1a2111-44cc-4996-babb-9439465e6760,A,IF,1B,Frederick,Freeman,Freddie,5,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+d692c6b5-5895-4b72-8a46-d9b9594defb6,A,IF,3B,Maxwell,Muncy,Max,13,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+532d4a28-6fd6-4f5e-9054-69203c78de4b,A,P,SP,Michael,Lynn,Lance,35,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+7981804b-af38-415b-8c97-1055d54db6be,A,P,SP,Julio,Urías,Julio,7,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+d3351c6e-12cf-4ab5-b651-ad23d49c4245,A,P,SP,Clayton,Kershaw,Clayton,22,3,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+57ba104f-27dc-45fa-8532-d7b8b2909acf,A,P,SP,Robert,Miller,Bobby,70,4,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+dae38ebc-f1dc-4b47-a8b6-9bee0fc2a2dd,A,P,SP,Ryan,Yarbrough,Ryan,56,5,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+317b24ac-6a9b-4735-a4c5-64d879cd6bf7,A,C,C,William,Smith,Will,16,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+253f7c54-5990-4955-9825-df5bb368ca97,A,C,C,Austin,Barnes,Austin,15,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+43862b88-c119-4625-b138-f3c5ea1b8b06,A,P,RP,Brusdar,Graterol,Brusdar,48,1,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+d5c0ed32-abeb-4907-8bbf-5e96ef35592b,A,P,RP,Caleb,Ferguson,Caleb,64,2,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+6426ad53-44d1-4ae9-b14c-b068106f5949,A,P,RP,Ryan,Brasier,Ryan,57,3,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+bea7d9db-323c-4a8b-bbe9-0581df94536b,A,P,RP,Alexander,Vesia,Alex,51,4,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+e23c15a9-89e8-4436-b9c0-6b6c0a5d3fb5,A,P,RP,Victor,González,Victor,81,5,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+708dc84f-d81e-4283-945b-88a06e613d5e,A,P,RP,Gus,Varland,Gus,58,6,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+b60e970e-aef6-4e74-97c9-b308c6aeca87,A,P,RP,Bryan,Hudson,Bryan,93,7,ef64da7f-cfaf-4300-87b0-9313386b977c,Dodgers
+e5bdeb0e-38fc-4d30-8127-43d0d5b2864d,A,OF,RF,Michael,Conforto,Michael,8,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+43a9d631-5673-4059-9b25-d59290bc32c3,A,OF,LF,Joc,Pederson,Joc,23,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+a94f3112-28dc-4fb4-a6d1-a73b5c738621,A,OF,LF,Austin,Slater,Austin,13,3,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+66613693-6adb-4f6d-87fc-c839f7e41ba0,A,C,C,Blake,Sabol,Blake,2,4,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+2df4c1ae-3eb7-4009-a7ef-00335aa82893,A,IF,2B,Thairo,Estrada,Thairo,39,5,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+e18804ae-c939-46e9-aa75-c5ac4f68bc77,A,OF,CF,Wade,Meckler,Wade,53,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+d79a318a-166e-4ec4-9f4c-abf9de62da45,A,OF,CF,Luis,Matos,Luis,29,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+9560fe4d-d13b-45a0-ae45-e1304bf19256,A,IF,3B,Jonathan,Davis,J.D.,7,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+a85c4a88-fc5b-43f0-9c94-5e5204cd92ae,A,IF,3B,Casey,Schmitt,Casey,6,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+45bca5ce-4514-4a91-9410-e201c7b0052d,A,IF,1B,Wilmer,Flores,Wilmer,41,3,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+cf302aef-cb3a-4626-ba44-a9bc7bbb3f5b,A,IF,SS,Paul,DeJong,Paul,18,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+2df4c1ae-3eb7-4009-a7ef-00335aa82893,A,IF,2B,Thairo,Estrada,Thairo,39,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+a85c4a88-fc5b-43f0-9c94-5e5204cd92ae,A,IF,3B,Casey,Schmitt,Casey,6,3,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+2df4c1ae-3eb7-4009-a7ef-00335aa82893,A,IF,2B,Thairo,Estrada,Thairo,39,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+041632a9-afb2-4ec3-b1de-9b0bbe33ab64,A,IF,1B,LaMonte,Wade Jr.,LaMonte,31,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+45bca5ce-4514-4a91-9410-e201c7b0052d,A,IF,1B,Wilmer,Flores,Wilmer,41,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+9560fe4d-d13b-45a0-ae45-e1304bf19256,A,IF,3B,Jonathan,Davis,J.D.,7,3,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+72248e3e-3b0f-4523-9ff6-833aa33f3b32,A,P,SP,Logan,Webb,Logan,62,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+d2c5e643-fe5d-4ece-8f1e-560d6b2048ed,A,P,SP,Alexander,Cobb,Alex,38,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+956280da-4ce3-41db-8830-e04ef52bb0f2,A,P,SP,Robert,Wood,Alex,57,3,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+f578d526-6d2e-4590-9665-ed42c72c883f,A,P,RP,Sean,Manaea,Sean,52,4,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+12798db1-6631-44ba-a2c6-9941f0b4c77e,A,P,SP,Kyle,Harrison,Kyle,45,5,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+4e42c38f-7d21-4220-95a0-f39309e72605,A,C,C,Patrick,Bailey,Patrick,14,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+66613693-6adb-4f6d-87fc-c839f7e41ba0,A,C,C,Blake,Sabol,Blake,2,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+43a9d631-5673-4059-9b25-d59290bc32c3,A,OF,LF,Joc,Pederson,Joc,23,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+66613693-6adb-4f6d-87fc-c839f7e41ba0,A,C,C,Blake,Sabol,Blake,2,3,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+9560fe4d-d13b-45a0-ae45-e1304bf19256,A,IF,3B,Jonathan,Davis,J.D.,7,4,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+d62161c0-7148-4a67-94da-b284eb458293,A,P,RP,Tyler,Rogers,Tyler,71,1,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+cf42953d-893f-4191-aab5-c1a94636efc8,A,P,RP,Taylor,Rogers,Taylor,33,2,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+042c8b24-768e-4c51-9dc3-b7d441a7165c,A,P,RP,Scott,Alexander,Scott,54,3,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+1d8f74e9-5ca5-4407-9ef8-8512d00f2860,A,P,RP,Luke,Jackson,Luke,77,4,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+919d18a0-cd70-43c9-81f2-b96bf9e66a17,A,P,RP,Jakob,Junis,Jakob,34,5,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+dce67aa3-b64d-4a49-b9f3-dd5bac19ebf8,A,P,RP,Ryan,Walker,Ryan,74,6,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+0cd3ad75-4c79-4b7f-b5ec-6f6afc74167c,A,P,RP,Tristan,Beck,Tristan,43,7,a7723160-10b7-4277-a309-d8dd95a8ae65,Giants
+a8ff76c9-1554-421c-baed-2a22fb00ad71,A,OF,LF,Thomas,Pham,Tommy,28,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+86b68e79-a041-4fe2-95ea-1e8e0c30e382,A,OF,LF,Corbin,Carroll,Corbin,7,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+20e7bd6e-fb56-4e86-ad2d-b50bc5477371,A,OF,LF,Lourdes,Gurriel Jr.,Lourdes,12,3,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+00b00827-de2d-4ae4-a3ce-9571abfa84be,A,OF,CF,Alek,Thomas,Alek,5,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+86b68e79-a041-4fe2-95ea-1e8e0c30e382,A,OF,LF,Corbin,Carroll,Corbin,7,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+8d6f801e-7f89-4a81-81ec-072f72604c8e,A,IF,3B,Evan,Longoria,Evan,3,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+e43136cd-762f-4b3f-8595-4f07e83be3b2,A,IF,3B,Jace,Peterson,Jace,6,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+ad64c80d-35f2-4d73-a027-d10362eef962,A,IF,SS,Geraldo,Perdomo,Geraldo,2,3,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+821fb078-34e9-41ba-83d9-626d99dab2f4,A,IF,2B,Clifton,Kennedy,Buddy,16,4,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+ad64c80d-35f2-4d73-a027-d10362eef962,A,IF,SS,Geraldo,Perdomo,Geraldo,2,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+43944ff4-dec0-4f37-8c8c-fe71123d5cd7,A,IF,SS,Nicholas,Ahmed,Nick,13,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+04b68b54-6217-4436-b3e8-bed6d3bd4942,A,IF,2B,Ketel,Marte,Ketel,4,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+ad64c80d-35f2-4d73-a027-d10362eef962,A,IF,SS,Geraldo,Perdomo,Geraldo,2,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+821fb078-34e9-41ba-83d9-626d99dab2f4,A,IF,2B,Clifton,Kennedy,Buddy,16,3,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+9a87c7e5-41f7-4658-833a-d81920b79390,A,IF,1B,Christian,Walker,Christian,53,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+20e7bd6e-fb56-4e86-ad2d-b50bc5477371,A,OF,LF,Lourdes,Gurriel Jr.,Lourdes,12,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+e488a3a6-4673-4e5d-befe-6d5ab57b0b8e,A,P,SP,Zachary,Gallen,Zac,23,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+871f04aa-367c-48fb-8ae5-a5bd9e27cb8b,A,P,SP,Kenneth,Kelly,Merrill,29,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+5f6e12b8-1a4b-4b56-ab3b-1b349c0cd614,A,P,SP,Brandon,Pfaadt,Brandon,32,3,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+dbdd2193-a5ad-474a-afdd-5f9fd308a09e,A,P,SP,Slade,Cecconi,Slade,43,4,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+965b3981-3ecf-402e-a338-6dde330b445c,A,P,SP,Bryce,Jarvis,Bryce,40,5,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+47bbd747-6edc-4d0e-a976-5228f5003fbd,A,C,C,Gabriel,Moreno,Gabriel,14,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+c5b9d056-d030-4640-9e4a-a83599984388,A,C,C,Jose,Herrera,Jose,11,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+20e7bd6e-fb56-4e86-ad2d-b50bc5477371,A,OF,LF,Lourdes,Gurriel Jr.,Lourdes,12,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+712e68e8-096a-48e0-9079-b52c02661829,A,P,RP,Scott,McGough,Scott,30,1,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+016e7b25-5855-447a-aa10-10372bcc1fa3,A,P,RP,Kevin,Ginkel,Kevin,37,2,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+a8b37789-7620-414c-a5a4-c0eac1bb76a0,A,P,RP,Miguel,Castro,Miguel,50,3,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+022f2098-d823-4bc8-be86-0073c5c6c884,A,P,RP,Kyle,Nelson,Kyle,24,4,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+225568a7-e1a6-41a0-9ae0-6361d63449dc,A,P,RP,Joseph,Mantiply,Joe,35,5,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+049f14e2-3e08-4485-8019-a3891d30501b,A,P,RP,Justin,Martinez,Justin,63,6,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+9134ddd1-00cf-4400-8499-bb5116278374,A,P,RP,Nabil,Crismatt,Nabil,61,7,25507be1-6a68-4267-bd82-e097d94b359b,Diamondbacks
+c3d9c2d5-8100-409b-a7ea-d5bf7931fc14,A,OF,LF,Kyle,Schwarber,Kyle,12,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+481ff280-9711-494a-9772-6a012b3899fe,A,OF,LF,Andrew,Cave,Jake,44,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+600399c3-6c15-43ac-812a-358f37d92258,A,OF,CF,Johan,Rojas,Johan,18,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+cbc7880d-aacf-494d-83b9-5441533451a2,A,OF,CF,Brandon,Marsh,Brandon,16,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+481ff280-9711-494a-9772-6a012b3899fe,A,OF,LF,Andrew,Cave,Jake,44,3,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+169ed0b1-e34b-4f4b-925b-f3288f24a5e7,A,OF,RF,Nicholas,Castellanos,Nick,8,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+600399c3-6c15-43ac-812a-358f37d92258,A,OF,CF,Johan,Rojas,Johan,18,3,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+93102f45-b65e-4512-bb76-c6ca023dc7db,A,IF,3B,Alec,Bohm,Alec,28,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+2c3dd982-03d9-42ed-9f7f-a40775a0ced8,A,IF,3B,Edmundo,Sosa,Edmundo,33,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+67dc86a1-cc03-41ae-ba7d-e5b8434c83e8,A,IF,SS,Trea,Turner,Trea,7,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+f6e1f0f3-5afb-4944-9a46-be422f49e234,A,IF,SS,Rodolfo,Castro,Rodolfo,29,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+2c3dd982-03d9-42ed-9f7f-a40775a0ced8,A,IF,3B,Edmundo,Sosa,Edmundo,33,3,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+b563181c-665a-42d7-b628-596bae2fe192,A,IF,2B,Bryson,Stott,Bryson,5,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+f6e1f0f3-5afb-4944-9a46-be422f49e234,A,IF,SS,Rodolfo,Castro,Rodolfo,29,3,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+f3caeac6-343a-4a01-b5a3-85c5485c57cb,A,IF,1B,Bryce,Harper,Bryce,3,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+93102f45-b65e-4512-bb76-c6ca023dc7db,A,IF,3B,Alec,Bohm,Alec,28,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+ded1b30d-52ca-4eec-bce6-251b15b085ac,A,P,SP,Aaron,Nola,Aaron,27,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+f2c07e82-71e8-4c76-962b-3a7739a11626,A,P,SP,Zachary,Wheeler,Zack,45,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+515af486-d938-4cb6-90e4-943323a5737c,A,P,SP,Taijuan,Walker,Taijuan,99,3,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+4150b3f7-beb3-4fbc-a947-933d45d20bfe,A,P,SP,Michael,Lorenzen,Michael,22,4,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+224f1f61-6abd-4662-8887-bd812df4357b,A,P,SP,Cristopher,Sánchez,Cristopher,61,5,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+f2a70df3-0bff-48e3-92ae-970c2a103fcf,A,C,C,Jacob,Realmuto,J.T.,10,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+1d2e81a6-7b33-468a-8eb0-0428e31aa95e,A,C,C,Garrett,Stubbs,Garrett,21,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+f3caeac6-343a-4a01-b5a3-85c5485c57cb,A,IF,1B,Bryce,Harper,Bryce,3,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+169ed0b1-e34b-4f4b-925b-f3288f24a5e7,A,OF,RF,Nicholas,Castellanos,Nick,8,3,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+1b02041b-941f-46af-a52e-79072e0e2a33,A,P,RP,Seranthony,Domínguez,Seranthony,58,1,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+6f454eeb-59bc-407d-b8ff-95f547bcb57c,A,P,RP,Gregory,Soto,Gregory,30,2,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+d2b49c9d-1c9f-44b4-b9b9-c4222dc0c089,A,P,RP,Jeffrey,Hoffman,Jeff,68,3,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+35a8a1b4-88fe-41a7-becb-6fbf97db70f0,A,P,RP,Matthew,Strahm,Matt,25,4,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+13b09db2-4de1-4452-b533-874d4f595121,A,P,RP,Dylan,Covey,Dylan,54,5,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+163d5f8f-78a7-456d-9809-74606c475a7f,A,P,RP,José,Alvarado,José,46,6,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+10c4be6a-33d6-4166-8e87-eef83a378b92,A,P,RP,Andrew,Bellatti,Andrew,64,7,2142e1ba-3b40-445c-b8bb-f1f8b1054220,Phillies
+21461120-9f42-47b9-b381-7dda973d823b,A,OF,CF,Rafael,Ortega,Rafael,30,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+a98f850b-0148-47c8-857b-b53e715ebbbf,A,OF,LF,Timothy,Locastro,Tim,26,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+c31c5931-b7db-447d-9207-5d6f58ec0f4f,A,IF,2B,Jeff,McNeil,Jeff,1,3,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+bba23f9e-8aac-454a-b8ca-9373b5d1e5b8,A,OF,CF,Brandon,Nimmo,Brandon,9,4,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+bcd5f53b-5dca-4e94-81dc-ac99d1c2cd59,A,OF,LF,Abraham,Almonte,Abraham,28,5,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+bba23f9e-8aac-454a-b8ca-9373b5d1e5b8,A,OF,CF,Brandon,Nimmo,Brandon,9,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+21461120-9f42-47b9-b381-7dda973d823b,A,OF,CF,Rafael,Ortega,Rafael,30,3,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+c31c5931-b7db-447d-9207-5d6f58ec0f4f,A,IF,2B,Jeff,McNeil,Jeff,1,4,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+96600e21-d075-440d-8762-5d48a466b053,A,OF,RF,Demetrius,Stewart,DJ,29,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+c31c5931-b7db-447d-9207-5d6f58ec0f4f,A,IF,2B,Jeff,McNeil,Jeff,1,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+6d6d07a8-b47f-4c57-8229-68483c459ea7,A,IF,2B,Daniel,Mendick,Danny,15,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+98d3d7c1-16bb-490c-8e03-73567efdbabf,A,IF,SS,Francisco,Lindor,Francisco,12,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+6d6d07a8-b47f-4c57-8229-68483c459ea7,A,IF,2B,Daniel,Mendick,Danny,15,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+c31c5931-b7db-447d-9207-5d6f58ec0f4f,A,IF,2B,Jeff,McNeil,Jeff,1,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+5fe17998-9821-41ca-af92-2f78ab89ac61,A,IF,2B,Jonathan,Araúz,Jonathan,19,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+6d6d07a8-b47f-4c57-8229-68483c459ea7,A,IF,2B,Daniel,Mendick,Danny,15,3,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+e91e752d-6a11-4f69-8244-77cf03a233d2,A,IF,1B,Peter,Alonso,Pete,20,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+06180a69-fef8-44cc-bcea-cf581d7f9dc9,A,P,SP,Kodai,Senga,Kodai,34,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+683ac24d-7777-478b-8417-d0eb3cb04e83,A,P,SP,Carlos,Carrasco,Carlos,59,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+b1e3b804-0022-40bc-8f53-8c82ee4eb1b9,A,P,SP,José,Quintana,José,62,3,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+42e026c7-10b1-4b2f-881f-472f6e9908cf,A,P,SP,David,Peterson,David,23,4,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+75147a4e-9c8c-4f58-8b38-a4d2847ff108,A,P,SP,Tylor,Megill,Tylor,38,5,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+4be92fc3-e09a-4140-b2bf-907b227b100e,A,C,C,Francisco,Alvarez,Francisco,4,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+36b546a8-a5d9-4469-921f-fe1e4de62608,A,C,C,Omar,Narváez,Omar,2,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+fa76cc26-d558-4651-8d23-5652519a7dc0,A,DH,DH,Daniel,Vogelbach,Daniel,32,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+4be92fc3-e09a-4140-b2bf-907b227b100e,A,C,C,Francisco,Alvarez,Francisco,4,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+d940d087-acf8-4776-bc26-3807a3a72e9d,A,P,RP,Andrew,Smith,Drew,40,1,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+a1989569-fdf0-4ff6-b9f7-a9e141ab0251,A,P,RP,Trevor,Gott,Trevor,33,2,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+dbab5d91-1ae7-4f80-a7c9-54cfd5318fb2,A,P,RP,Samuel,Coonrod,Sam,45,3,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+02ede66e-feee-42d1-a094-4fad710f789b,A,P,RP,Phillip,Bickford,Phil,50,4,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+bf1ec084-7d7b-4ef3-804b-722a53dbec4f,A,P,RP,Adam,Kolarek,Adam,66,5,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+f378ead3-b390-4129-a8a6-f3e9a4747a24,A,P,RP,Reed,Garrett,Reed,75,6,f246a5e5-afdb-479c-9aaa-c68beeda7af6,Mets
+4be357dd-add5-4613-937d-6b9a0831d9ee,A,OF,LF,Eddie,Rosario,Eddie,8,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+7335e54f-cc2f-422c-808e-c19a267827a5,A,OF,LF,Kevin,Pillar,Kevin,17,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+57f0a40f-e0f5-4e76-bd59-b8c4de7a680c,A,DH,DH,Marcell,Ozuna,Marcell,20,3,12079497-e414-450a-8bf2-29f91de646bf,Braves
+94b20984-18d1-49bf-aed9-eac78c0d1416,A,OF,CF,Michael,Harris II,Michael,23,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+860100f5-6b7a-40da-ace9-fc6805ed8744,A,OF,RF,Ronald,Acuña Jr.,Ronald,13,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+4ee9e14f-2436-4ca4-a9c2-6557d8d86769,A,IF,3B,Michael Austin,Riley,Austin,27,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+21b52f39-3075-4a5f-a933-7652b02e3897,A,IF,2B,Nicholas,Lopez,Nicky,15,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+0e0faed9-3d08-418c-b4dc-f2e993483a36,A,IF,SS,Orlando,Arcia,Orlando,11,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+e4bae090-1bac-4271-99d3-4fe2a249a379,A,IF,SS,Lucas,Williams,Luke,67,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+c096bb04-1a2a-4c31-8613-94abc3f32011,A,IF,SS,Vaughn,Grissom,Vaughn,18,3,12079497-e414-450a-8bf2-29f91de646bf,Braves
+21b52f39-3075-4a5f-a933-7652b02e3897,A,IF,2B,Nicholas,Lopez,Nicky,15,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+0e0faed9-3d08-418c-b4dc-f2e993483a36,A,IF,SS,Orlando,Arcia,Orlando,11,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+82a3e6b8-71a8-40c7-b08c-caed8357bbd8,A,IF,1B,Matthew,Olson,Matt,28,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+4ee9e14f-2436-4ca4-a9c2-6557d8d86769,A,IF,3B,Michael Austin,Riley,Austin,27,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+ff772241-8fdd-488c-a81e-49b44ce600fc,A,P,SP,Charles,Morton,Charlie,50,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+a68025fc-a0b7-4900-8339-cb4c139e6d57,A,P,SP,Spencer,Strider,Spencer,99,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+1e6d6727-0aec-48da-b880-d38a8178c5db,A,P,SP,Max,Fried,Max,54,3,12079497-e414-450a-8bf2-29f91de646bf,Braves
+8a4de81f-a497-40e4-ba42-39b4c1fbbdd3,A,P,SP,Bryce,Elder,Bryce,55,4,12079497-e414-450a-8bf2-29f91de646bf,Braves
+57f8351b-3fbc-402f-a6c7-9a6a37f03f8e,A,P,SP,Jared,Shuster,Jared,53,5,12079497-e414-450a-8bf2-29f91de646bf,Braves
+312edbf0-0528-4e69-a3cb-1b0c26275965,A,C,C,Sean,Murphy,Sean,12,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+6cc35dbd-458e-48a5-a187-99abccbc1abf,A,C,C,Travis,d'Arnaud,Travis,16,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+57f0a40f-e0f5-4e76-bd59-b8c4de7a680c,A,DH,DH,Marcell,Ozuna,Marcell,20,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+e1cbb2df-986d-4fab-bf1e-7192c54bdae9,A,P,RP,Alex,Minter,A.J.,33,1,12079497-e414-450a-8bf2-29f91de646bf,Braves
+49812b41-643c-4356-b6eb-ffd29df4f653,A,P,RP,Joe,Jiménez,Joe,77,2,12079497-e414-450a-8bf2-29f91de646bf,Braves
+9ef1bea8-21b4-4ba9-81d3-84ebfcf63582,A,P,RP,Pierce,Johnson,Pierce,38,3,12079497-e414-450a-8bf2-29f91de646bf,Braves
+fe45e33b-f554-4856-af56-1f4f578eaa82,A,P,RP,Kirby,Yates,Kirby,22,4,12079497-e414-450a-8bf2-29f91de646bf,Braves
+72e92087-7bd4-4266-aac9-4df87bd84722,A,P,RP,Collin,McHugh,Collin,32,5,12079497-e414-450a-8bf2-29f91de646bf,Braves
+ae850521-e9cb-4314-b66c-f6dd070556d7,A,P,RP,Bradley,Hand,Brad,45,6,12079497-e414-450a-8bf2-29f91de646bf,Braves
+4f62487c-f2eb-4b1d-9296-6fd5d0342fb3,A,P,RP,Michael,Tonkin,Michael,51,7,12079497-e414-450a-8bf2-29f91de646bf,Braves
+95b3265a-7a8e-4684-a123-adf023be6cee,A,OF,LF,Blake,Rutherford,Blake,29,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+561952a8-bcfb-4d61-9d5b-81f971eab0fa,A,OF,LF,Stone,Garrett,Stone,36,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+049a45ca-5327-4e58-bb85-87c707389d30,A,IF,3B,Ildemaro,Vargas,Ildemaro,14,3,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+182d02a7-c606-4a85-a635-89dd1afdac6f,A,OF,RF,Lane,Thomas,Lane,28,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+ffa483f2-404f-4de9-80ab-89d4b1bcacf6,A,OF,CF,Alex,Call,Alex,17,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+561952a8-bcfb-4d61-9d5b-81f971eab0fa,A,OF,LF,Stone,Garrett,Stone,36,3,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+7da1a5e8-d928-4723-8dc7-03af9d4d7d16,A,DH,DH,Joey,Meneses,Joey,45,3,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+95b3265a-7a8e-4684-a123-adf023be6cee,A,OF,LF,Blake,Rutherford,Blake,29,4,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+049a45ca-5327-4e58-bb85-87c707389d30,A,IF,3B,Ildemaro,Vargas,Ildemaro,14,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+c80c0b78-69b1-4b62-bb92-7c77d3f6ea9d,A,IF,3B,Carter,Kieboom,Carter,8,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+c12ccd4a-092b-47a4-a7f1-15378e12be8a,A,OF,LF,Jacob,Alu,Jake,39,3,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+0199150d-29c1-49d2-bb85-027921a33c8e,A,IF,1B,Michael,Chavis,Michael,6,4,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+35ee7e68-0049-4c84-9691-07c49b44fbfa,A,IF,SS,Paul,Abrams,CJ,5,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+049a45ca-5327-4e58-bb85-87c707389d30,A,IF,3B,Ildemaro,Vargas,Ildemaro,14,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+c12ccd4a-092b-47a4-a7f1-15378e12be8a,A,OF,LF,Jacob,Alu,Jake,39,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+0199150d-29c1-49d2-bb85-027921a33c8e,A,IF,1B,Michael,Chavis,Michael,6,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+0203fb2b-3d49-40bd-b685-c6a5c388cade,A,IF,1B,Dominic,Smith,Dominic,22,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+0764772b-e8ab-42b3-9ee4-2b61af785e75,A,P,SP,Patrick,Corbin,Patrick,46,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+58ed579a-6d32-4fbf-80d0-bcfc5a5e5c18,A,P,SP,Josiah,Gray,Josiah,40,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+6e4f47b4-6461-42c4-bb1a-5658b0649dfb,A,P,SP,MacKenzie,Gore,MacKenzie,1,3,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+3382334c-e14c-48de-b248-273d6e6e003b,A,P,SP,Joan,Adon,Joan,60,4,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+e40d5150-268a-4af2-99cc-dae6e3e1a016,A,P,SP,Trevor,Williams,Trevor,32,5,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+53994f14-378a-4570-be06-e8ef68255c32,A,P,SP,Jacob,Irvin,Jake,74,6,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+92defc55-fd9c-4069-b0a1-8cef9326753a,A,C,C,Keibert,Ruiz,Keibert,20,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+3f65cd94-9f29-4dbf-b7f6-4d8aa51d05a2,A,C,C,Riley,Adams,Riley,15,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+7da1a5e8-d928-4723-8dc7-03af9d4d7d16,A,DH,DH,Joey,Meneses,Joey,45,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+92defc55-fd9c-4069-b0a1-8cef9326753a,A,C,C,Keibert,Ruiz,Keibert,20,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+0daadfb1-9f92-4ecf-87c4-bbfc0a232e6c,A,P,RP,Hunter,Harvey,Hunter,73,1,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+43eb93d2-4638-49d3-9bae-0c6f71157bbb,A,P,RP,Jordan,Weems,Jordan,51,2,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+af2b5968-b8ea-4234-9b6d-e484b1d598ac,A,P,RP,Andrés,Machado,Andrés,57,3,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+916b57c6-d2eb-47f9-92a6-779c0fb339ec,A,P,RP,Mason,Thompson,Mason,71,4,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+73fdecbf-8738-4e32-adba-57d894931208,A,P,RP,Jose A.,Ferrer,Jose A.,47,5,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
+2f962f66-501f-4fc7-9a25-738a589c9e05,A,P,RP,Robert,Garcia,Robert,61,6,d89bed32-3aee-4407-99e3-4103641b999a,Nationals
