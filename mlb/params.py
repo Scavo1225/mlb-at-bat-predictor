@@ -13,6 +13,10 @@ GCR_IMAGE = os.environ.get("GCR_IMAGE")
 GCR_REGION = os.environ.get("GCR_REGION")
 GCR_MEMORY = os.environ.get("GCR_MEMORY")
 
+SERVICE_URL=os.environ.get("SERVICE_URL")
+
+
+
 
 ##################  CONSTANTS  #####################
 LOCAL_DATA_PATH = os.path.join(os.path.expanduser('~'), ".mlb_classification", "mlops", "data")

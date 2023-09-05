@@ -2,6 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 import os
+from mlb.params import *
+import time
 
 # Current path
 path = os.getcwd()
@@ -114,7 +116,7 @@ hitter_stats = hitter_stats.rename(columns={'hitter_ab_count': '2023 At Bats',
                               'hitter_hand': 'Batter Hand',
                               'hitter_previous_stats_szn': 'Season OBP',
                               'rolling_10ab': 'Last 10 At Bats OBP',
-                              'itter_previous_stats_szn_slug': 'Season Slugging',
+                              'hitter_previous_stats_szn_slug': 'Season Slugging',
                               'rolling_10ab_slug': 'Last 10 At Bats Slugging',
                               'hitter_fast_eff': 'Fastball Efficiency',
                               'hitter_offspeed_eff': 'Off-speed Efficiency'})
@@ -135,6 +137,15 @@ params = {
 
 if st.button("Predict"):
 
+    st.write("Calcuting at bat outcome odds.....")
+    bar = st.progress(0)
+
+
+    for i in range(100):
+
+        bar.progress(i+1)
+        time.sleep(0.2  )
+
     # # # # Print resul
     # st.write(f"{hitter} bats the ball !!!")
     # win_gif = f"{path}/mlb/interface/illustrations/win.gif"
@@ -145,7 +156,7 @@ if st.button("Predict"):
     # st.image(lose_gif, width=500)
 
 
-    mbl_api_url = 'http://localhost:8000/predict'  # Replace with your API endpoint
+    mbl_api_url = 'https://mlb1315-ovcniiq53a-ew.a.run.app/predict'  # Replace with your API endpoint
     try:
         response = requests.get(mbl_api_url, params=params)
         response.raise_for_status()  # Raise an exception if the request is not successful
@@ -153,14 +164,17 @@ if st.button("Predict"):
         prediction = response.json()
 
         pred = prediction.get('prediction')  # Use .get() to avoid KeyError if 'prediction' is missing
-        proba = round(prediction.get('probability'),1) # Use .get() to avoid KeyError if 'probability' is missing
+        proba = prediction.get('probability') # Use .get() to avoid KeyError if 'probability' is missing
 
         if pred == 1:
-            st.success("Batter wins this at bat!")
-            st.success(f"Batter is projected to win this at bat, with a {proba} probability")
+            text = (f"{hitter} is projected reach base against {pitcher}, with a {proba} probability")
+            st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{text}</span></strong></div>", unsafe_allow_html=True)
+
         elif pred == 0:
-            st.error("Pitcher wins this at bat!")
-            st.error(f"Pitcher is expected to win the at bat; batter has a {proba} probability to be successful")
+            text = (f"{pitcher} is projected to win this at bat!")
+            text2 = (f"{hitter} has a {round(proba,2)}% probability reach base without an out")
+            st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{text}</span></strong></div>", unsafe_allow_html=True)
+            st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{text2}</span></strong></div>", unsafe_allow_html=True)
         else:
             st.warning(f"Unexpected prediction value: {pred}")
     except requests.exceptions.RequestException as e:
@@ -168,6 +182,8 @@ if st.button("Predict"):
     except KeyError:
         st.error("The API response is missing the 'prediction' key.")
 
-
-st.write(pred)
-st.write(f"{proba}%")
+# try:
+#     st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{pred}</span></strong></div>", unsafe_allow_html=True)
+#     st.write(f"<div style='text-align:center'><strong><span style='font-size:22px'>{proba}</span></strong></div>", unsafe_allow_html=True)
+# except:
+#     pass
