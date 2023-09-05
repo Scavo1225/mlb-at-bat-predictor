@@ -157,6 +157,7 @@ def set_targets(df: pd.DataFrame) -> pd.DataFrame:
                         "IPO": 0}
 
     df["mc_target"] = df["play_outcome"].map(lambda x: outcome_mapping[x])
+    df = df.drop(columns='play_outcome')
 
     #Mapping multi-class targets to binary targets, final target for model
     df["y_target"] = df["mc_target"].map(lambda y: 0 if y  == 0 else 1)

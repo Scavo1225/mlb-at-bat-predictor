@@ -102,8 +102,8 @@ if st.button("Predict"):
 
         prediction = response.json()
 
-        pred = prediction.get('prediction')  # Use .get() to avoid KeyError if 'y_target' is missing
-        proba = prediction.get('proba')  # Use .get() to avoid KeyError if 'y_target' is missing
+        pred = prediction.get('prediction')  # Use .get() to avoid KeyError if 'prediction' is missing
+        proba = round(prediction.get('probability'),1) # Use .get() to avoid KeyError if 'probability' is missing
 
         if pred == 1:
             st.success("Batter wins this at bat!")
@@ -119,4 +119,5 @@ if st.button("Predict"):
         st.error("The API response is missing the 'prediction' key.")
 
 
-    # Generate a prediction
+st.write(pred)
+st.write(f"{proba}%")

@@ -87,7 +87,7 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
 
     #dropping redundant columns to avoid multi-colinearity
 
-    final_modeling_columns = ['hitter_position', 'hitter_primary_position', 'hitter_previous_stats_szn', 'rolling_1ab',
+    final_modeling_columns = ['hitter_position', 'hitter_previous_stats_szn', 'rolling_1ab',
                     'rolling_3ab', 'rolling_10ab', 'hitter_previous_stats_szn_slug',
                     'rolling_1ab_slug', 'rolling_3ab_slug', 'rolling_10ab_slug',
                     'pitcher_previous_stats_szn', 'rolling_1pitch', 'rolling_3pitch',

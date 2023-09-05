@@ -3,8 +3,8 @@ from mlb.ml_logic.preprocessing import preprocessing_for_predictions
 
 def build_X_new_preproc(pitcher_name, hitter_name):
 
-    pitchers = pd.read_csv("../interface/data/pitchers.csv", index_col=0)
-    hitters = pd.read_csv("../interface/data/hitters.csv", index_col=0)
+    pitchers = pd.read_csv("mlb/interface/data/pitchers.csv", index_col=0)
+    hitters = pd.read_csv("mlb/interface/data/hitters.csv", index_col=0)
 
     X_new = pd.concat([hitters[hitters.full_name == hitter_name].reset_index(),
             pitchers[pitchers.full_name == pitcher_name].reset_index()], axis=1)
@@ -20,7 +20,7 @@ def build_X_new_preproc(pitcher_name, hitter_name):
                                 "hitter_hand", "pitcher_hand", "pitcher_ab_count", "hitter_ab_count"])
 
     # Preprocess X_new
-    X_train = pd.read_csv("../interface/data/X_train.csv", index_col=0)
+    X_train = pd.read_csv("mlb/interface/data/X_train.csv", index_col=0)
     X_new_preproc = preprocessing_for_predictions(X_train, X_new)
 
     return X_new_preproc
