@@ -303,18 +303,18 @@ def create_dataset(ab_filepath='raw_data/plate_app_data/',
     return df
 
 def build_data_to_predict():
-    """Buil and save the pitchers.csv and hitters.csv from final_full_dataset and players tables
+    """Build and save the pitchers.csv and hitters.csv from final_full_dataset and players tables
     Hitters and pitchers tables are used for the interface and make a predicrtion
     """
 
     # Import data
-    data = pd.read_csv("../interface/data/final_full_dataset.csv", index_col=0, parse_dates=["at_bat_end_time"])
+    data = pd.read_csv("mlb/interface/data/final_full_dataset.csv", index_col=0, parse_dates=["at_bat_end_time"])
     data = data.sort_values(by="at_bat_end_time", ascending=False)
     data["hitter_ab_count"] = data.groupby('hitter_id')['hitter_id'].transform('count')
     data["pitcher_ab_count"] = data.groupby('pitcher_id')['pitcher_id'].transform('count')
 
     # Import players
-    players = pd.read_csv("../interface/data/players.csv")
+    players = pd.read_csv("mlb/interface/data/players.csv")
     players = players[~players.id.duplicated(keep="first")]
 
     # Create pitchers.csv
@@ -331,7 +331,7 @@ def build_data_to_predict():
                 how="left", left_on="id", right_on="pitcher_id")
 
     pitchers = pitchers.dropna().drop(columns="pitcher_id")
-    pitchers.to_csv("../interface/data/pitchers.csv")
+    pitchers.to_csv("mlb/interface/data/pitchers.csv")
 
     # Create hitters.csv
     hitters = players[players.position != "P"][["id", "first_name", "last_name", "team_nickname", "primary_position"]]
@@ -348,4 +348,4 @@ def build_data_to_predict():
                             how="left", left_on="id", right_on="hitter_id")
 
     hitters = hitters.dropna().drop(columns="hitter_id")
-    hitters.to_csv("../mlb/interface/data/hitters.csv")
+    hitters.to_csv("mlb/interface/data/hitters.csv")

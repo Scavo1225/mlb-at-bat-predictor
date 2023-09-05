@@ -32,7 +32,6 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
     #Create handed matchups
     df["handed_matchup"] = df["hitter_hand"] + df["pitcher_hand"]
     df["handed_matchup"] = df.handed_matchup.apply((lambda x: 0 if x[0] == x[1] else 1))
-    df = df.drop(columns=["hitter_hand", "pitcher_hand"])
 
     #total hitter and pitcher at bats prior to at bat
     df["hitter_ab_count"] = df.groupby('hitter_id').cumcount()
@@ -88,21 +87,37 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
 
     #dropping redundant columns to avoid multi-colinearity
 
-    df = df.drop(columns=["pitch_class", "reverse_pitch_class", "hitter_strikes_atb", "hitter_balls_atb", "hitter_strikes_only_results",
-                            "hitter_balls_only_results", "hitter_strikes_results", "hitter_balls_results", "hitter_speeds_class1",
-                            "reverse_pitch_type_cat", "hitter_fast_atb", "hitter_offspeed_atb", "hitter_fast_only_results","hitter_offspeed_only_results","hitter_fast_results", "hitter_offspeed_results"])
+    final_modeling_columns = ['hitter_position', 'hitter_primary_position', 'hitter_previous_stats_szn', 'rolling_1ab',
+                    'rolling_3ab', 'rolling_10ab', 'hitter_previous_stats_szn_slug',
+                    'rolling_1ab_slug', 'rolling_3ab_slug', 'rolling_10ab_slug',
+                    'pitcher_previous_stats_szn', 'rolling_1pitch', 'rolling_3pitch',
+                    'rolling_10pitch', 'pitcher_previous_stats_szn_bases',
+                    'rolling_1pitch_bases', 'rolling_3pitch_bases', 'rolling_10pitch_bases',
+                    'handed_matchup','match_up_ab_count_delta', 'hitter_strikes_eff', 'hitter_balls_eff',
+                    'pitcher_strikes_spread', 'pitcher_balls_spread',
+                    'hitter_success_speed', 'pitcher_speed', 'hitter_fast_eff',
+                    'hitter_offspeed_eff', 'pitcher_fast_spread',
+                    'pitcher_offspeed_spread', 'y_target']
 
-    final_modeling_columns = ['hitter_position', 'hitter_previous_stats_szn', 'rolling_1ab',
-                            'rolling_3ab', 'rolling_10ab', 'hitter_previous_stats_szn_slug',
-                            'rolling_1ab_slug', 'rolling_3ab_slug', 'rolling_10ab_slug',
-                            'pitcher_previous_stats_szn', 'rolling_1pitch', 'rolling_3pitch',
-                            'rolling_10pitch', 'pitcher_previous_stats_szn_bases',
-                            'rolling_1pitch_bases', 'rolling_3pitch_bases', 'rolling_10pitch_bases',
-                            'handed_matchup','match_up_ab_count_delta', 'hitter_strikes_eff', 'hitter_balls_eff',
-                            'pitcher_strikes_spread', 'pitcher_balls_spread',
-                            'hitter_success_speed', 'pitcher_speed', 'hitter_fast_eff',
-                            'hitter_offspeed_eff', 'pitcher_fast_spread',
-                            'pitcher_offspeed_spread', 'y_target']
+
+
+    full_set_columns = ['hitter_id', 'hitter_hand', 'pitcher_id', 'pitcher_hand', 'at_bat_end_time',
+                        'hitter_position', 'hitter_previous_stats_szn', 'rolling_1ab',
+                        'rolling_3ab', 'rolling_10ab', 'hitter_previous_stats_szn_slug',
+                        'rolling_1ab_slug', 'rolling_3ab_slug', 'rolling_10ab_slug',
+                        'pitcher_previous_stats_szn', 'rolling_1pitch', 'rolling_3pitch',
+                        'rolling_10pitch', 'pitcher_previous_stats_szn_bases',
+                        'rolling_1pitch_bases', 'rolling_3pitch_bases', 'rolling_10pitch_bases',
+                        'handed_matchup','match_up_ab_count_delta', 'hitter_strikes_eff', 'hitter_balls_eff',
+                        'pitcher_strikes_spread', 'pitcher_balls_spread',
+                        'hitter_success_speed', 'pitcher_speed', 'hitter_fast_eff',
+                        'hitter_offspeed_eff', 'pitcher_fast_spread',
+                        'pitcher_offspeed_spread']
+
+    data_full = df[full_set_columns]
+    df = df[final_modeling_columns]
+
+    data_full.to_csv('mlb/interface/data/final_full_dataset.csv')
 
     df = df[final_modeling_columns]
 

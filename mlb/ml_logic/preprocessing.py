@@ -60,7 +60,7 @@ def preprocessing_for_training(X_train, X_test):
 
 
 def preprocessing_for_predictions(X_train, X_pred):
-    
+
     preproc_transformer = create_preprocessor_pipeline()
 
 

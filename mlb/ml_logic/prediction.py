@@ -1,13 +1,13 @@
 import pandas as pd
 from mlb.ml_logic.preprocessing import preprocessing_for_predictions
 
-def build_X_new_preproc(pitcher_full_name, hitter_full_name):
+def build_X_new_preproc(pitcher_name, hitter_name):
 
     pitchers = pd.read_csv("../interface/data/pitchers.csv", index_col=0)
     hitters = pd.read_csv("../interface/data/hitters.csv", index_col=0)
 
-    X_new = pd.concat([hitters[hitters.full_name == hitter_full_name].reset_index(),
-            pitchers[pitchers.full_name == pitcher_full_name].reset_index()], axis=1)
+    X_new = pd.concat([hitters[hitters.full_name == hitter_name].reset_index(),
+            pitchers[pitchers.full_name == pitcher_name].reset_index()], axis=1)
 
     # Calculate handed_matchup
     X_new["handed_matchup"] = X_new.apply((lambda row: 0 if row["hitter_hand"] == row["pitcher_hand"] else 1), axis=1)
