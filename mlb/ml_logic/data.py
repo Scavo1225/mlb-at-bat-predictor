@@ -301,3 +301,51 @@ def create_dataset(ab_filepath='raw_data/plate_app_data/',
     df = data_tuning(df)
 
     return df
+
+def build_data_to_predict():
+    """Buil and save the pitchers.csv and hitters.csv from final_full_dataset and players tables
+    Hitters and pitchers tables are used for the interface and make a predicrtion
+    """
+
+    # Import data
+    data = pd.read_csv("../interface/data/final_full_dataset.csv", index_col=0, parse_dates=["at_bat_end_time"])
+    data = data.sort_values(by="at_bat_end_time", ascending=False)
+    data["hitter_ab_count"] = data.groupby('hitter_id')['hitter_id'].transform('count')
+    data["pitcher_ab_count"] = data.groupby('pitcher_id')['pitcher_id'].transform('count')
+
+    # Import players
+    players = pd.read_csv("../interface/data/players.csv")
+    players = players[~players.id.duplicated(keep="first")]
+
+    # Create pitchers.csv
+    pitchers = players[players.position == "P"][["id", "first_name", "last_name", "team_nickname", "primary_position"]]
+    pitchers["full_name"] = pitchers.first_name + " " + pitchers.last_name
+    pitchers = pitchers.drop(columns=["first_name", "last_name"])
+
+    pitchers = pitchers.merge(data.drop_duplicates(subset='pitcher_id', keep='first')
+                [["pitcher_id", "pitcher_hand", "pitcher_previous_stats_szn", "rolling_1pitch",
+                    "rolling_3pitch", "rolling_10pitch", "pitcher_previous_stats_szn_bases",
+                    "rolling_1pitch_bases", "rolling_3pitch_bases", "rolling_10pitch_bases",
+                    "pitcher_strikes_spread", "pitcher_balls_spread", "pitcher_speed",
+                    "pitcher_fast_spread", "pitcher_offspeed_spread", "pitcher_ab_count"]],
+                how="left", left_on="id", right_on="pitcher_id")
+
+    pitchers = pitchers.dropna().drop(columns="pitcher_id")
+    pitchers.to_csv("../interface/data/pitchers.csv")
+
+    # Create hitters.csv
+    hitters = players[players.position != "P"][["id", "first_name", "last_name", "team_nickname", "primary_position"]]
+    hitters["full_name"] = hitters.first_name + " " + hitters.last_name
+    hitters = hitters.drop(columns=["first_name", "last_name"])
+    hitters = hitters[~hitters.full_name.duplicated(keep="first")]
+
+    hitters = hitters.merge(data.drop_duplicates(subset='hitter_id', keep='first')
+                            [["hitter_id", "hitter_hand", "hitter_position", "hitter_previous_stats_szn",
+                            "rolling_1ab", "rolling_3ab", "rolling_10ab", "hitter_previous_stats_szn_slug",
+                            "rolling_1ab_slug", "rolling_3ab_slug", "rolling_10ab_slug",
+                            "hitter_strikes_eff", "hitter_balls_eff", "hitter_success_speed", "hitter_fast_eff",
+                            "hitter_offspeed_eff", "hitter_ab_count"]],
+                            how="left", left_on="id", right_on="hitter_id")
+
+    hitters = hitters.dropna().drop(columns="hitter_id")
+    hitters.to_csv("../mlb/interface/data/hitters.csv")
