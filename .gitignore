@@ -3,6 +3,7 @@ raw_data/
 preproc_data/
 *data/
 mlb/*.csv
+illustrations/
 
 #mlflow info
 mlruns/
