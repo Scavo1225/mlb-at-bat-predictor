@@ -8,6 +8,6 @@
 
 💵 Intended to provide better bettor insights for the casual sports gamblers 
 
-🎯 Initial interation had 79% precision when predicting batter success
+🎯 Initial iteration had 79% precision when predicting batter success
 
-🚧 Currently in optimization phase to improve user experience
+🚧 Currently in the optimization phase to improve user experience
